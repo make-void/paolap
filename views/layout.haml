@@ -1,0 +1,19 @@
+!!! 5
+%html
+  - TITLE = "Paola Porcinai"
+  %head
+    %title= TITLE
+    %link{ rel: "stylesheet", href: "/css/main.css" }
+    =# partial :metas
+
+  %body
+    #container
+      %header
+        %h1= TITLE
+      %nav
+        %a{ href: "/" }         Home
+        %a{ href: "/lavori" }   Lavori
+        %a{ href: "/contatti" } Contatti
+        %a{ href: "http://pietroporcinai.net" } Pietro Porcinai
+      %section.content= yield
+    %script{ type: "text/javascript", src: "/js/app.js" }
