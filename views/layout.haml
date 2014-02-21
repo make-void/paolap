@@ -6,14 +6,24 @@
     %link{ rel: "stylesheet", href: "/css/main.css" }
     =# partial :metas
 
-  %body
+  %body{ class: body_class }
     #container
       %header
-        %h1= TITLE
-      %nav
-        %a{ href: "/" }         Home
-        %a{ href: "/lavori" }   Lavori
-        %a{ href: "/contatti" } Contatti
-        %a{ href: "http://pietroporcinai.net" } Pietro Porcinai
-      %section.content= yield
+        %a{ href: "/" }
+          %img{ src: "/img/logo_paolaporcinai.gif" }
+        %h1
+          %a{ href: "/" }= TITLE
+        %nav
+          %a{ href: "/" }           Home
+          %a{ href: "/curriculum" } CV
+          %a{ href: "/studi" }      Studi
+          %a{ href: "/lavori" }     Lavori
+          %a{ href: "/contatti" }   Contatti
+          %a{ href: "http://pietroporcinai.net" } Pietro Porcinai
+      %section.content
+        .inner
+          = yield
+          .clear
+        .footer
+          © #{Time.now.year} Paola Porcinai
     %script{ type: "text/javascript", src: "/js/app.js" }

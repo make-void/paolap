@@ -9,6 +9,14 @@ class Paolap < Sinatra::Base
     haml :index
   end
 
+  get "/curriculum" do
+    haml :curriculum
+  end
+
+  get "/studi" do
+    haml :studi
+  end
+
   get "/lavori" do
     haml :lavori
   end

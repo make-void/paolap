@@ -8,6 +8,8 @@ gem "voidtools"
 gem "haml"
 gem "sass"
 
+gem "redcarpet"
+
 group :development do
   #gem "guard"
   #gem "guard-sass",         require: false
