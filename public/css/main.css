@@ -35,6 +35,15 @@ body {
 .clear {
   clear: both; }
 
+ul {
+  list-style-type: circle; }
+  ul li {
+    margin-bottom: 0.8em; }
+    ul li a {
+      color: #008833; }
+  ul li::marker {
+    color: #008833; }
+
 h1 {
   color: #005f24; }
 
@@ -100,3 +109,12 @@ a {
   padding: 4em 4% 0; }
 .home img {
   margin-right: 4%; }
+
+.lavori img {
+  width: 20%;
+  margin-left: 2%;
+  margin-right: 14%;
+  margin-top: 2.4em;
+  margin-bottom: 2.4em; }
+.lavori img:nth-child(3n+2) {
+  margin-right: 0; }

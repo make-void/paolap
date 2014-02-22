@@ -65,6 +65,15 @@ $green:       #083
 $light_blue:  #E4FBFF
 
 
+ul
+  list-style-type: circle
+  li
+    margin-bottom: $u*2
+    a
+      color: $green
+  li::marker
+    color: $green
+
 h1
   color: darken($green, 8)
 
@@ -133,3 +142,13 @@ a
     padding: $u*10 $pu*2 0
   img
     margin-right: $pu*2
+
+
+.lavori
+  img
+    width: $pu*10
+    margin-left: $pu
+    margin-right: $pu*7
+    +vmargin( $u*6 )
+  img:nth-child(3n+2)
+    margin-right: 0

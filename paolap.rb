@@ -5,6 +5,10 @@ class Paolap < Sinatra::Base
 
   include Voidtools::Sinatra::ViewHelpers
 
+  # def photos(lavoro)
+  #   []
+  # end
+
   get "/" do
     haml :index
   end
@@ -19,6 +23,11 @@ class Paolap < Sinatra::Base
 
   get "/lavori" do
     haml :lavori
+  end
+
+  get "/lavori/:id" do |id|
+    @lavoro = LAVORI.find &:id
+    haml :lavoro
   end
 
   get "/contatti" do

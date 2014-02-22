@@ -1,4 +1,5 @@
 path = File.expand_path '../../', __FILE__
+PATH = path
 APP = "paolap"
 
 require "bundler/setup"
@@ -13,6 +14,12 @@ end
 include Utils
 
 env = ENV["RACK_ENV"] || "development"
-# DataMapper.setup :default, "mysql://localhost/paolap_#{env}"
-require_all "#{path}/models"
-# DataMapper.finalize
+ENV = env
+
+# ---
+
+require "#{path}/lib/mhash"
+extend Mhash
+
+lavori = eval File.read "#{path}/db/lavori.rb"
+LAVORI = lavori.map{ |l| to_mhash l }

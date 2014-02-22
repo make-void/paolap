@@ -1,0 +1,10 @@
+%h1= @lavoro.nome
+
+:markdown
+  #{@lavoro.introduzione}
+
+= haml :_foto
+
+
+:markdown
+  #{@lavoro.descrizione}
