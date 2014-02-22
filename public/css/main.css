@@ -110,11 +110,10 @@ a {
 .home img {
   margin-right: 4%; }
 
-.lavori img {
-  width: 20%;
+.lavori .content img {
   margin-left: 2%;
   margin-right: 14%;
   margin-top: 2.4em;
   margin-bottom: 2.4em; }
-.lavori img:nth-child(3n+2) {
+.lavori .content img:nth-child(3n+2) {
   margin-right: 0; }

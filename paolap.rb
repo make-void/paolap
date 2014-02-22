@@ -26,7 +26,7 @@ class Paolap < Sinatra::Base
   end
 
   get "/lavori/:id" do |id|
-    @lavoro = LAVORI.find &:id
+    @lavoro = LAVORI.find{ |lav| lav.id == id.to_i }
     haml :lavoro
   end
 

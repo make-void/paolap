@@ -22,4 +22,5 @@
   end
 
 - for photo in photos(@lavoro)
-  %img{ src: photo.thumb }
+  %a.gallery{ href: photo.path, rel: "lavoro_#{@lavoro.id}" }
+    %img{ src: photo.thumb }
