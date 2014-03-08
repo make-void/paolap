@@ -196,8 +196,11 @@ STR
 
 intro_12 = <<STR
 Nome: Recupero ambientale di una cava
+
 Ubicazione: Trasanello (Matera) - Italia
+
 Anni: 1982-1982
+
 Committente: Italcementi
 
 Dopo l’analisi delle diverse possibilità di utilizzazione del suolo, lo studio proponeva un piano di sistemazione della cava una volta terminato il suo sfruttamento per fini industriali.
@@ -214,43 +217,11 @@ STR
 
 
 intro_11 = <<STR
-Nome: Lotta alla desertificazione, sviluppo forestale
-Ubicazione: Isole di Santiago e di Maio - Isole del Capo Verde
-Anni: 1982-1988
-Bilancio totale approvato (US $) : 7.147.000
-Paese finanziatore: Belgio
-Controparte: Ministero dello Sviluppo Rurale - Capo Verde
-
-Nelle Isole del Capo Verde lo sviluppo economico è condizionato dalla desertificazione del territorio processo che è legato non solo a fattori climatici, ma anche ambientali ed in particolare all’utilizzazione intensiva dei boschi e delle formazioni arbustive; per lottare contro la desertificazione migliorando le condizioni di vita delle popolazioni era necessario ricostituire il patrimonio forestale e creare nuove risorse arboree ed arbustive anche nelle aree agricole, proteggere i boschi e la vegetazione esistente dall’eccessivo sfruttamento.
-
-Nel 1975, anno di indipendenza del Capo Verde furono formulati, grazie alla cooperazione tecnica dell’UNDP (Programma delle Nazioni Unite per lo Sviluppo) e poi della FAO una serie di documenti di progetto per la lotta alla desertificazione, la ricostituzione dei pascoli, la produzione di legname da opera e di legna da ardere. I progetti furono poi attuati nell’ambito della cooperazione multilaterale, grazie ai finanziamenti del Governo Francese (Isola di San Vincente), del Governo Tedesco (Isola di Fogo) del Governo Olandese (Isole Boa Vista, S. Antonio) e del Governo del Belgio (Isole di Santiago e di Maio).
-
-Grazie a questi programmi di cooperazione oltre 32.000.000 di alberi sono stati piantati negli ultimi 20 anni per proteggere il terreno dall’erosione e ricostituire in parte il patrimonio forestale che era stato distrutto. Sono state realizzate migliaia di chilometri di “banquettes”, di muretti, migliaia di dighe; le opere di sistemazione idraulico-forestale hanno interessato un’area totale di 16.000 ha.
+  Pagina in costruzione
 STR
 
 desc_11 = <<STR
-Il progetto della FAO iniziò nel 1978 grazie al finanziamento del Governo del Belgio.
 
-Il progetto aveva come obiettivi immediati: la sperimentazione di tecniche adeguate di piantagione e la selezione di alberi ed arbusti da utilizzare per la ricostituzione del patrimonio forestale in alcune aree delle Isole di Santiago e di Maio, la tutela delle foreste esistenti, la promozione di tecniche di gestione dei boschi adeguate, la formazione del personale a vari livelli (universitario, tecnico, operai forestali), l’istituzione di un Servizio Forestale Nazionale.
-
-
-Attività e risultati :
-
-Dal 1982-1988 il progetto ha conseguito i risultati seguenti:
-
--individuazione di tecniche idonee di rimboschimento e selezione di specie adatte capaci di vivere in condizioni ambientali difficili.Dopo prove di piantagione effettuate impiegando circa 60 specie diverse sono state scelte per i rimboschimenti, per i migliori risultati in termini di sopravvivenza, resistenza e sviluppo, Eucalyptus sp., Pinus sp., Acacia sp. per le aree con altitudine compresa fra 700m e 1500 m e Prosopis juliflora e Parkinsonia aculeata per i terreni di pianura (da 0 a 300 m).
-
-Nelle aree montane sono state ricostituite foreste distrutte e fortemente degradate in seguito ai tagli indiscriminati. Nelle pianure e sugli altopiani sono state realizzate piantagioni con specie aventi le caratteristiche seguenti: resistenza all’aridità, facilità di sviluppo in condizioni climatiche ed ecologiche difficili, fornitura di legname da opera, legna da ardere o di biomassa da utilizzare come foraggio per il bestiame. Le tecniche di rimboschimento impiegate consistevano nella preparazione del terreno in “banquettes”, “caldeiras” e piantagione degli alberi nella stagione piovosa. Tali tecniche denominate “run-off planting” migliorando la ritenzione idrica del terreno, favorivano le condizioni di vita dei giovani alberi anche nei periodi di siccità. Durante sei anni di attività sono stati rimboschiti nelle isole di Santiago e di Maio oltre 5.000 ha e piantati ben 650.000 alberi;
-
-- adozione di interventi per la tutela dei rimboschimenti e delle foreste esistenti ed individuazione di tecniche idonee di utilizzazione per la produzione di legname da opera, legna da ardere e carbone;
-- istituzione di un Servizio Forestale Nazionale;
-- assistenza tecnica per quanto concerne la legislazione forestale, tutela e gestione dei boschi, utilizzazioni forestali e commercio dei prodotti forestali, promozione di investimenti, divulgazione forestale;
-- formazione del personale (a livello universitario e tecnico) della nuova struttura istituzionale con la concessione di borse di studio, l’organizzazione di viaggi di studio all’estero;
-- formazione della manodopera del progetto;
-- impiego permanente ogni anno di 1.200 operai forestali;
-- sviluppo di attività di ricerca in vari settori (utilizzazione di alberi ed arbusti per la produzione di foraggio per il bestiame, sistemi di produzione di carbone, ecc.).
-
-Il progetto ha conseguito risultati importanti grazie alle attività forestali per la lotta alla desertificazione, sia per l’impatto istituzionale e ciò grazie alla valida assistenza tecnica, alla partecipazione attiva della popolazione locale ed alla perfetta intesa fra gli esperti della FAO ed i colleghi del Servizio Forestale Nazionale.
 STR
 
 
