@@ -1,10 +1,16 @@
 intro_1 = <<STR
 Nome: Lotta alla desertificazione, sviluppo forestale
+
 Ubicazione: Isole di Santiago e di Maio - Isole del Capo Verde
+
 Anni: 1982-1988
+
 Bilancio totale approvato (US $) : 7.147.000
+
 Paese finanziatore: Belgio
+
 Controparte: Ministero dello Sviluppo Rurale - Capo Verde
+
 
 Nelle Isole del Capo Verde lo sviluppo economico è condizionato dalla desertificazione del territorio processo che è legato non solo a fattori climatici, ma anche ambientali ed in particolare all’utilizzazione intensiva dei boschi e delle formazioni arbustive; per lottare contro la desertificazione migliorando le condizioni di vita delle popolazioni era necessario ricostituire il patrimonio forestale e creare nuove risorse arboree ed arbustive anche nelle aree agricole, proteggere i boschi e la vegetazione esistente dall’eccessivo sfruttamento.
 
@@ -40,10 +46,15 @@ STR
 
 intro_5 = <<STR
 **Nome:** Programma di rimboschimenti per la produzione di legna da ardere ed attività divulgative
+
 **Ubicazione:** Baringo - Kenya
+
 **Anni:** 1987-1989
+
 **Bilancio totale approvato (US $):** 1.018.000
+
 **Paese finanziatore:** Australia
+
 **Controparte:** Ministero dell'Ambiente e delle Risorse Naturali - Dipartimento delle Foreste
 
 La deforestazione in Kenya ha assunto nel tempo dimensioni tali da accelerare il processo di degrado dell'ambiente (perdita della fertilità del terreno, inondazioni, insabbiamento, scomparsa di habitat importanti per la varietà biologica delle specie presenti) con conseguenti ripercussioni negative sulle condizioni di vita della popolazione. Tale distruzione è causata dall'incremento della popolazione e dalla povertà. Le risorse forestali (foreste naturali e rimboschimenti) sono oggetto di tagli abusivi ed anche minacciate di distruzione dagli incendi boschivi e dal pascolo intensivo.
@@ -67,11 +78,17 @@ STR
 
 intro_6 = <<STR
 Nome: Programma di stabilizzazione e di fissazione delle dune
+
 Ubicazione: Nord, est, sud-ovest del paese - Mauritania
+
 Anni: 1983-1989
+
 Bilancio totale approvato (US $) : 6.325.000
+
 Paese finanziatore: vedi descrizione
+
 Controparte: Ministero dello Sviluppo Rurale - Direzione della Protezione della Natura
+
 
 La Mauritania è una terra difficile: 398.000 miglia quadrate (cioè 1 milione e 31.000 Km2) di deserto battuto da venti violenti. Una popolazione di poco più di 2 milioni di abitanti per lo più arabo-berberi (mauri) ed in minor parte africani neri che vivono raccolti in piccoli centri e non più nomadi. A parte Nouakchott (la capitale) le altre città storiche come Cinguetti, Tichitt e Ouedane (protette dall’UNESCO) che un tempo erano famosi centri carovanieri, oasi ricche di palme, di acqua oggi sono state quasi abbandonate dagli abitanti stremati da carestie, siccità, isolamento.
 La copertura vegetale di circa 12 milioni di ettari negli ultimi 20 anni è quasi scomparsa; le dune prive di vegetazione si spostano con i venti e si depositano in aree abitate (villaggi, oasi), nei campi coltivati, o sulle infrastrutture creando grandi problemi alla popolazione.
@@ -82,13 +99,21 @@ desc_6 = <<STR
 Ubicazione: Azougui, Cinguetti, Guerou, Toungad (Nord,Est) Kankossa, Maghta Lajar (est)Aouinat ez Zbil, Kiffa, Mederdra, Tamchakett, Timbedra (est e sud-ovest), Aghchourguitt, Ajouer, Boutilimit (“Route de l’Espoir”).
 
 Donatori:
+
 UNSO (Fondo delle Nazioni Unite per il Sahel): US.$ 2.863.579
+
 FENU (Fondo delle Nazioni Unite per Equipaggiamento): US $ 1.398.000
+
 UNDP (Fondo delle Nazioni Unite per lo Sviluppo: US $ 557.000
+
 Algeria (Finanziamento delle borse di studio): US$ 996.000
+
 Governo della Mauritania : US $ 327.000
+
 PAM (Programma Alimentare Mondiale) US $ 183.000
+
 TOTALE US $ 6.325.000
+
 
 Il progetto ha realizzato interventi importanti e cioè:
 - protezione dall’insabbiamento di 15 aree, considerate rappresentative della principale tipologia di insabbiamento (4 oasi nel nord e centro-est del paese; 2 villaggi con aree agricole nell’area silvo-pastorale; 4 aree lungo la “Route de l’Espoir” principale asse stradale del Paese lunga 1.099 Km ed avente un ruolo vitale per 460.000 abitanti residenti e 400.000 nomadi; 5 centri abitati importanti dal punto di vista amministrativo e commerciale.
@@ -108,10 +133,15 @@ STR
 
 intro_7 = <<STR
 Nome: Centro di formazione nella gestione integrata delle “mornes”
+
 Ubicazione: Limbé - Haiti
+
 Anni: 1987-1989
+
 Bilancio totale approvato (US $) : 1.085.000
+
 Paese finanziatore: Governo della Svizzera
+
 Controparte: Ministero dell’Agricoltura, delle Risorse Naturali e dello Sviluppo Rurale.
 
 La maggioranza della popolazione (8,3 milioni di abitanti) vive in condizioni di povertà estrema.
@@ -132,11 +162,17 @@ STR
 
 intro_8 = <<STR
 Nome: Assistenza tecnica alla Divisione delle Foreste
+
 Ubicazione: Maseru - Lesotho
+
 Anni: 1982-1988
+
 Bilancio totale approvato (US $) : 2.886.000
+
 Paese finanziatore: Governo della Svezia
+
 Controparte: Divisione delle Foreste
+
 
 Il progetto è nato per rafforzare la capacità istituzionale della Divisione delle Foreste formare il personale in modo da promuovere programmi di sviluppo forestale per arrestare il degrado del territorio soggetto ad erosione e per incrementare le risorse forestali.
 STR
@@ -152,9 +188,13 @@ STR
 
 intro_9 = <<STR
 Nome: Sviluppo forestale per la protezione del territorio e la produzione di legname
+
 Ubicazione: Tongyu, Jinxian, Zhangutai - Regione di Jilin - Cina
+
 Anni: 1989-1991
+
 Paese finanziatore: Governo del Belgio
+
 Controparte: Ministero delle Foreste
 
 Il patrimonio forestale naturale negli ultimi 40 anni è stato quasi totalmente distrutto a causa dello sviluppo eccessivo delle infrastrutture.
@@ -176,7 +216,9 @@ STR
 
 intro_10 = <<STR
 Nome: Ristrutturazione limonaia Villa Rondinelli e restauro del giardino
+
 Ubicazione: Fiesole (Firenze) - Italia
+
 Anni: 1992-1994
 
 Dopo aver deciso di lasciare la professione forestale in ambito internazionale ed aver scelto di vivere a Firenze nella limonaia progettata da Pietro Porcinai mi sono occupata degli interventi di recupero e restauro della proprietà (che era stata abbandonata ed in stato di degrado), del disegno di alcuni arredi e del restauro del giardino.
