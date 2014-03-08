@@ -105,6 +105,11 @@ a {
     width: 40%;
     margin: 0 auto; }
 
+.big {
+  margin: 20px 0;
+  font-size: 1.8em;
+  font-weight: bold; }
+
 .home #container > .content {
   padding: 4em 4% 0; }
 .home img {
