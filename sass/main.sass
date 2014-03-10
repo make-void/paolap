@@ -93,20 +93,21 @@ a
   border-bottom: 2px solid $green
   padding: $u 0 0 0
   box-shadow: 0 2px 6px #666
+  $top: 18px
   h1
     display: inline-block
     margin: 0 0 0 $pu/2
     position: relative
-    top: -10px
+    top: -$top
   img // logo
-    width: 50px
+    width: 70px
     display: inline-block
     margin: 0 0 0 $pu*2
   nav
     display: inline-block
     margin: 0 0 0 $pu
     position: relative
-    top: -10px
+    top: -$top - 4px
     a
       margin: 0 $u 0 0
       text-transform: uppercase
@@ -139,6 +140,7 @@ a
   font-size: 1.8em
   font-weight: bold
 
+
 // pages selective style
 
 
@@ -147,6 +149,58 @@ a
     padding: $u*10 $pu*2 0
   img
     margin-right: $pu*2
+
+
+=reset_margins
+  margin: 0
+  padding: 0
+
+
+// home bg mod
+.home
+  #container > .content
+    padding: 0
+    .inner
+      padding: 0
+    .bg
+      img:first-child
+        opacity: 1
+      img
+        opacity: 0
+        width: 100%
+        position: absolute
+        top: 0
+        transition:         opacity 1s ease-in-out
+        -webkit-transition: opacity 1s ease-in-out
+        -moz-transition:    opacity 1s ease-in-out
+    .cont
+      position: absolute
+      bottom: 40px
+      left: 10%
+      color: white
+      font-weight: bold
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, Verdana
+      text-shadow: 0px 0px 2px #111, 0px 1px 10px #444, 0px 1px 10px #444, 0px 1px 10px #444
+      a
+        color: white
+        margin-bottom: 6px
+        &:hover
+          color: lightGreen
+      // old version
+      //
+      // a
+      //   color: lightGreen
+      //   &:hover
+      //     color: 0d0
+
+      // home menu mod
+      nav
+        a
+          display: block
+
+
+  .footer
+    display: none
 
 
 .lavori .content
