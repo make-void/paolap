@@ -1,8 +1,11 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    RedCloth (4.2.9)
     haml (4.0.5)
       tilt
+    haml-contrib (1.0.0.1)
+      haml (>= 3.2.0.alpha.13)
     json (1.8.1)
     rack (1.5.2)
     rack-protection (1.5.2)
@@ -20,7 +23,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  RedCloth
   haml
+  haml-contrib
   json
   redcarpet
   sass

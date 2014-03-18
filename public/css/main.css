@@ -32,6 +32,9 @@ body {
 .left {
   float: left; }
 
+.right {
+  float: right; }
+
 .clear {
   clear: both; }
 
@@ -154,3 +157,10 @@ a {
   margin-bottom: 2.4em; }
 .lavori .content img:nth-child(3n+2) {
   margin-right: 0; }
+
+.center {
+  text-align: center; }
+
+.curriculum img {
+  margin: 0 auto;
+  width: 130px; }

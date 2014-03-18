@@ -8,7 +8,11 @@ gem "voidtools"
 gem "haml"
 gem "sass"
 
-gem "redcarpet"
+gem "redcarpet" # markdown
+
+gem "haml-contrib"
+gem "RedCloth" # textile
+
 
 group :development do
   #gem "guard"

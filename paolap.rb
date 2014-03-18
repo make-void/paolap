@@ -13,6 +13,10 @@ class Paolap < Sinatra::Base
     haml :index
   end
 
+  get "/professione" do
+    haml :professione
+  end
+
   get "/curriculum" do
     haml :curriculum
   end
