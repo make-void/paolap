@@ -161,6 +161,14 @@ a {
 .center {
   text-align: center; }
 
+.content img {
+  max-width: 100%; }
+
+.curriculum img, .contatti img {
+  margin: 0 auto; }
+
 .curriculum img {
-  margin: 0 auto;
   width: 130px; }
+
+.contatti img, .professione img {
+  width: 500px; }

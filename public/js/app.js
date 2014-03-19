@@ -1,8 +1,4 @@
-var gal_anim, gal_resize, qs;
-
-console.log("hello coffee!");
-
-qs = document.querySelector;
+var gal_anim, gal_resize;
 
 window.cur_idx = 0;
 
@@ -46,6 +42,8 @@ $(function() {
   $(".gallery").fancybox();
   images = ".home .content .bg img";
   images = document.querySelectorAll(images);
-  gal_anim(images);
-  return gal_resize();
+  if (images.length > 0) {
+    gal_anim(images);
+    return gal_resize();
+  }
 });

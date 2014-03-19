@@ -34,6 +34,10 @@ class Paolap < Sinatra::Base
     haml :lavoro
   end
 
+  get "/news" do
+    haml :news
+  end
+
   get "/contatti" do
     haml :contatti
   end

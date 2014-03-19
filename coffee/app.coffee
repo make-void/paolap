@@ -1,6 +1,3 @@
-console.log "hello coffee!"
-
-qs = document.querySelector
 
 window.cur_idx = 0
 
@@ -45,6 +42,7 @@ $ ->
 
   images = ".home .content .bg img"
   images = document.querySelectorAll images
-  gal_anim images
+  if images.length > 0
+    gal_anim images
 
-  gal_resize()
+    gal_resize()
