@@ -11,10 +11,10 @@ h1, h2 {
   margin-top: 0; }
 
 body {
-  font-family: Helvetica, Arial, Verdana;
+  font-family: Helvetica Neue, Helvetica, Arial, Verdana;
   font-size: 110%;
   color: white;
-  background: #2b4510; }
+  background: #a7a646; }
 
 #container > header, #container > .content {
   position: relative; }
@@ -44,13 +44,13 @@ ul {
     ul li a {
       font-weight: bold; }
   ul li::marker {
-    color: #2b4510; }
+    color: #a7a646; }
 
 h1 {
   color: white; }
 
 header a h1 {
-  text-shadow: 0px 0px 2px #111111, 0px 1px 3px #222222, 0px 1px 3px #222222, 0px 1px 5px #444444;
+  text-shadow: 0px 0px 0px white;
   font-size: 1.3em; }
 
 p {
@@ -81,6 +81,8 @@ a {
     top: -18px; }
   #container > .inner > header img {
     width: 50px;
+    position: relative;
+    bottom: 540px;
     display: inline-block;
     margin: 0 0 0 4%; }
   #container > .inner > header nav {
@@ -96,7 +98,7 @@ a {
 
 #container > .content {
   width: 100%;
-  background: #2b4510;
+  background: #a7a646;
   padding: 1.2em 2% 0;
   border: 1px solid #999999; }
   #container > .content h1 {
@@ -111,12 +113,12 @@ a {
     margin: 0 auto; }
 
 .home_text {
-  width: 24em;
+  width: 38%;
   font-size: 0.8em;
   position: absolute;
   bottom: -1.6em;
   right: 8%;
-  text-shadow: 0px 0px 2px #111111, 0px 1px 3px #222222, 0px 1px 3px #222222, 0px 1px 5px #444444; }
+  text-shadow: 0px 0px 0px white; }
   .home_text div {
     opacity: 0;
     position: absolute;
@@ -170,7 +172,7 @@ img {
     color: white;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Verdana;
-    text-shadow: 0px 0px 2px #111111, 0px 1px 3px #222222, 0px 1px 3px #222222, 0px 1px 5px #444444; }
+    text-shadow: 0px 0px 0px white; }
     .home #container > .content .cont a {
       color: white;
       margin-bottom: 6px; }
@@ -190,7 +192,8 @@ img {
   margin-right: 0; }
 
 .center {
-  text-align: center; }
+  text-align: center;
+  margin: 0 auto; }
 
 .content img {
   max-width: 100%; }
@@ -204,11 +207,18 @@ img {
 .curriculum img {
   width: 130px; }
 
-.contatti img, .contatti .center img, .professione img, .professione .center img {
-  width: 500px; }
+.contatti img.big, .professione img.big {
+  width: 70%;
+  margin: 0 auto;
+  display: block; }
+
+.rid {
+  width: 70%;
+  margin: 0 auto; }
 
 .content header {
-  margin-bottom: 10px; }
+  position: relative;
+  top: 3.6em; }
   .content header img {
     width: 55.55556px; }
 
@@ -222,3 +232,34 @@ img {
 .lavoro .right {
   float: right;
   width: 30%; }
+
+.text {
+  width: 70%;
+  text-align: justify;
+  margin: 0 auto; }
+
+.block nav a {
+  display: block; }
+
+.rid nav {
+  padding-top: 8em; }
+
+.bar {
+  height: 180px;
+  width: 3px;
+  background: white;
+  display: block;
+  position: absolute;
+  bottom: 0; }
+
+.bar.bar_left {
+  left: 8%; }
+
+.bar.bar_right {
+  right: 48%; }
+
+.bar.bar_left_page {
+  position: relative;
+  float: left;
+  top: 120px;
+  left: -3%; }

@@ -34,21 +34,22 @@ $u: 0.4em
 $pu: 2%
 
 $text: #fff
-$green:       #083
+$green:       #a7a646
 //$green: darken($green, 11)
-$green:      lighten( #23390d, 3 )
+//$green:      lighten( #23390d, 3 )
 // proposed green: #747700 , hmmm
 // a bit mejo green: #23390d
 $light_blue:  #E4FBFF
 
 $logo_width: 100px
 
-$black_shadow: 0px 0px 2px #111, 0px 1px 3px #222, 0px 1px 3px #222, 0px 1px 5px #444
+$black_shadow: 0px 0px 0px #fff
+// 0px 0px 2px #111, 0px 1px 3px #222, 0px 1px 3px #222, 0px 1px 5px #444
 
 // base style
 
 body
-  font-family: Helvetica, Arial, Verdana
+  font-family: Helvetica Neue, Helvetica, Arial, Verdana
   font-size: 110%
   color: $text
   background: $green
@@ -125,6 +126,8 @@ a
     top: -$top
   img // logo
     width: $logo_width / 2
+    position: relative
+    bottom: 540px
     display: inline-block
     margin: 0 0 0 $pu*2
   nav
@@ -159,7 +162,7 @@ a
 
 .home_text
   //background: rgba(100, 100, 100, 0.3)
-  width: $u * 60
+  width: $pu * 19
   font-size: 0.8em
   position: absolute
   bottom: - $u * 4
@@ -264,9 +267,11 @@ img
 
 .center
   text-align: center
+  margin: 0 auto
 
 .content img
   max-width: 100%
+
 
 .home .content img
 
@@ -280,11 +285,18 @@ img
   width: 130px
 
 .contatti, .professione
-  img, .center img
-    width: 500px
+  img.big
+    width: 70%
+    margin: 0 auto
+    display: block
+
+.rid
+  width: 70%
+  margin: 0 auto
 
 .content header
-  margin-bottom: 10px
+  position: relative
+  top: $u * 9
   img
     width: $logo_width / 1.8
 .home .content header img
@@ -298,3 +310,38 @@ img
   .right
     float: right
     width: 30%
+
+
+
+.text
+  width: 70%
+  text-align: justify
+  margin: 0 auto
+
+.block
+  nav a
+    display: block
+
+.rid nav
+  padding-top: $u * 20
+
+
+.bar
+  height: 180px
+  width: 3px
+  background: white
+  display: block
+  position: absolute
+  bottom: 0
+
+.bar.bar_left
+  left: $pu * 4
+
+.bar.bar_right
+  right: $pu * 24
+
+.bar.bar_left_page
+  position: relative
+  float: left
+  top: 120px
+  left: -$pu * 1.5

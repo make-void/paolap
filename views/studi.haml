@@ -1,9 +1,11 @@
-%h1 Studi
+.rid
 
-%ul
-  - for lavoro in LAVORI.select &:studio
-    %li
-      %a{ href: "/lavori/#{lavoro.id}" }
-        %span= lavoro.nome
-      %br
-      #{lavoro.ubicazione}, #{lavoro.anni}
+  %h1 Studi
+
+  %ul
+    - for lavoro in LAVORI.select &:studio
+      %li
+        %a{ href: "/lavori/#{lavoro.id}" }
+          %span= lavoro.nome
+        %br
+        #{lavoro.ubicazione}, #{lavoro.anni}

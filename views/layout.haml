@@ -9,19 +9,24 @@
   %body{ class: body_class }
     #container
       %section.content
+        / Paola Porcinai
         .inner
-          %header
-            %a{ href: "/" }
-              - unless body_class == "home"
-                %span <
-              %img{ src: "/img/paola_porcinai_logo.png" }
-            - if body_class == "home"
-              %h1
-                %a{ href: "/" }= TITLE
+          - if body_class != "home"
+            %header
+              %a{ href: "/" }
+                %img{ src: "/img/paola_porcinai_logo.png" }/
+
           = yield
+          .block.rid
+            - if body_class == "home"
+              .bar.bar_left
+            - else
+              .bar.bar_left_page
+            = haml :_nav
           .clear
-        .footer
-          © #{Time.now.year} Paola Porcinai
+        /
+          .footer
+            © #{Time.now.year} Paola Porcinai
     -# %script{ type: "text/javascript", src: "/js/app.js" }
 
     %link{ rel: "stylesheet", href: "/css/vendor/jq_fancybox.css" }
