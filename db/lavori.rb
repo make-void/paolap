@@ -259,7 +259,11 @@ STR
 
 
 intro_11 = <<STR
-  Pagina in costruzione
+  L’incarico di collaborazione riguardava la realizzazione di uno studio di sviluppo agricolo integrato nell’area del “Barrage vert” della regione di Batna ed in particolare:
+  
+  - lo studio della vegetazione e delle attività forestali in un’area di studio di 120.000 ha, delle risorse e delle potenzialità del settore forestale ed “alfatiero”
+  - lo studio degli interventi necessari di gestione delle foreste esistenti, dei rimboschimenti, della viabilità e delle infrastrutture  e delle utilizzazioni forestali nonchè dell’alfa in funzione dello sviluppo integrato agro-silvo-pastorale del perimetro
+  - l’elaborazione di un progetto esecutivo per lo sviluppo forestale di un perimetro di 10.000 ha scelto come intervento tipo fra quelli identificati.
 STR
 
 desc_11 = <<STR
