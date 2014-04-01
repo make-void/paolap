@@ -4,7 +4,14 @@ require "#{path}/config/env.rb"
 class Paolap < Sinatra::Base
 
   include Voidtools::Sinatra::ViewHelpers
-
+  
+  before do
+    #require "#{path}/lib/mhash"
+    extend Mhash
+    lavori = eval File.read "#{PATH}/db/lavori.rb"
+    LAVORI = lavori.map{ |l| to_mhash l }
+  end
+  
   # def photos(lavoro)
   #   []
   # end

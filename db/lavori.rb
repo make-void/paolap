@@ -1,46 +1,39 @@
 intro_1 = <<STR
-Nome: Lotta alla desertificazione, sviluppo forestale
+Lotta alla desertificazione, sviluppo forestale
 
-Ubicazione: Isole di Santiago e di Maio - Isole del Capo Verde
+Isole di Santiago e Maio-Capo verde
 
-Anni: 1982-1988
+1982 - 1988
 
-Bilancio totale approvato (US $) : 7.147.000
+Superficie: 5.000 ha
 
 Paese finanziatore: Belgio
 
 Controparte: Ministero dello Sviluppo Rurale - Capo Verde
 
-
-Nelle Isole del Capo Verde lo sviluppo economico è condizionato dalla desertificazione del territorio processo che è legato non solo a fattori climatici, ma anche ambientali ed in particolare all’utilizzazione intensiva dei boschi e delle formazioni arbustive; per lottare contro la desertificazione migliorando le condizioni di vita delle popolazioni era necessario ricostituire il patrimonio forestale e creare nuove risorse arboree ed arbustive anche nelle aree agricole, proteggere i boschi e la vegetazione esistente dall’eccessivo sfruttamento.
-
-Nel 1975, anno di indipendenza del Capo Verde furono formulati, grazie alla cooperazione tecnica dell’UNDP (Programma delle Nazioni Unite per lo Sviluppo) e poi della FAO una serie di documenti di progetto per la lotta alla desertificazione, la ricostituzione dei pascoli, la produzione di legname da opera e di legna da ardere. I progetti furono poi attuati nell’ambito della cooperazione multilaterale, grazie ai finanziamenti del Governo Francese (Isola di San Vincente), del Governo Tedesco (Isola di Fogo) del Governo Olandese (Isole Boa Vista, S. Antonio) e del Governo del Belgio (Isole di Santiago e di Maio).
-
-Grazie a questi programmi di cooperazione oltre 32.000.000 di alberi sono stati piantati negli ultimi 20 anni per proteggere il terreno dall’erosione e ricostituire in parte il patrimonio forestale che era stato distrutto. Sono state realizzate migliaia di chilometri di “banquettes”, di muretti, migliaia di dighe; le opere di sistemazione idraulico-forestale hanno interessato un’area totale di 16.000 ha.
+Finanziamento: (US $) 7.147.000
 STR
 
 desc_1 = <<STR
-Il progetto della FAO iniziò nel 1978 grazie al finanziamento del Governo del Belgio.
+Premessa
+Nelle Isole del Capo Verde lo sviluppo economico è condizionato dalla desertificazione del territorio processo che è legato non solo a fattori climatici, ma anche ambientali ed in particolare all’utilizzazione intensiva dei boschi e delle formazioni arbustive; per ricostituire l’habitat naturale favorendo così condizioni di vita migliori per la popolazione, era necessario ricostituire il patrimonio forestale e creare nuove risorse arboree ed arbustive anche in aree agricole, proteggere i boschi e la vegetazione esistente dall’eccessivo sfruttamento.
+Nel 1975, anno di indipendenza del Capo Verde furono formulati, grazie alla cooperazione tecnica dell’UNDP (Programma delle Nazioni Unite per lo Sviluppo) e poi della FAO una serie di documenti di progetto per la lotta alla desertificazione, la ricostituzione dei pascoli, la produzione di legname da opera e di legna da ardere. I progetti furono poi attuati nell’ambito della cooperazione multilaterale, grazie ai finanziamenti del Governo Francese (Isola di San Vincente), del Governo Tedesco (Isola di Fogo) del Governo Olandese (Isole Boa Vista, S. Antonio) e del Governo del Belgio (Isole di Santiago e di Maio).
+Grazie a questi programmi di cooperazione oltre 32.000.000 di alberi  furono piantati in 20 anni per proteggere il terreno dall’erosione e ricostituire in parte il patrimonio forestale che era stato distrutto. Furono realizzate migliaia di chilometri di “banquettes”, di muretti, migliaia di dighe; le opere di sistemazione idraulico-forestale interessarono un’area di 16.000 ha.
 
-Il progetto aveva come obiettivi immediati: la sperimentazione di tecniche adeguate di piantagione e la selezione di alberi ed arbusti da utilizzare per la ricostituzione del patrimonio forestale in alcune aree delle Isole di Santiago e di Maio, la tutela delle foreste esistenti, la promozione di tecniche di gestione dei boschi adeguate, la formazione del personale a vari livelli (universitario, tecnico, operai forestali), l’istituzione di un Servizio Forestale Nazionale.
-
-
+Descrizione
+Il progetto della FAO inizia nel 1978 grazie al finanziamento del Belgio.
+Il progetto ha come obiettivi immediati: la sperimentazione di tecniche adeguate di piantagione e la selezione di alberi ed arbusti da utilizzare per la ricostituzione del patrimonio forestale in alcune aree delle Isole di Santiago e di Maio, la tutela delle foreste esistenti, la promozione di tecniche di gestione dei boschi adeguate, la formazione del personale a vari livelli (universitario, tecnico, operai forestali), l’istituzione di un Servizio Forestale Nazionale.
 Attività e risultati :
-
 Dal 1982-1988 il progetto ha conseguito i risultati seguenti:
-
--individuazione di tecniche idonee di rimboschimento e selezione di specie adatte capaci di vivere in condizioni ambientali difficili.Dopo prove di piantagione effettuate impiegando circa 60 specie diverse sono state scelte per i rimboschimenti, per i migliori risultati in termini di sopravvivenza, resistenza e sviluppo, Eucalyptus sp., Pinus sp., Acacia sp. per le aree con altitudine compresa fra 700m e 1500 m e Prosopis juliflora e Parkinsonia aculeata per i terreni di pianura (da 0 a 300 m).
-
+° individuazione di tecniche idonee di rimboschimento e selezione di specie adatte capaci di vivere in condizioni ambientali difficili.Dopo prove di piantagione effettuate impiegando circa 60 specie diverse sono state scelte per i rimboschimenti, per i migliori risultati in termini di sopravvivenza, resistenza e sviluppo, Eucalyptus sp., Pinus sp., Acacia sp. per le aree con altitudine compresa fra 700m e 1500 m e Prosopis juliflora e Parkinsonia aculeata per i terreni di pianura (da 0 a 300 m).
 Nelle aree montane sono state ricostituite foreste distrutte e fortemente degradate in seguito ai tagli indiscriminati. Nelle pianure e sugli altopiani sono state realizzate piantagioni con specie aventi le caratteristiche seguenti: resistenza all’aridità, facilità di sviluppo in condizioni climatiche ed ecologiche difficili, fornitura di legname da opera, legna da ardere o di biomassa da utilizzare come foraggio per il bestiame. Le tecniche di rimboschimento impiegate consistevano nella preparazione del terreno in “banquettes”, “caldeiras” e piantagione degli alberi nella stagione piovosa. Tali tecniche denominate “run-off planting” migliorando la ritenzione idrica del terreno, favorivano le condizioni di vita dei giovani alberi anche nei periodi di siccità. Durante sei anni di attività sono stati rimboschiti nelle isole di Santiago e di Maio oltre 5.000 ha e piantati ben 650.000 alberi;
-
-- adozione di interventi per la tutela dei rimboschimenti e delle foreste esistenti ed individuazione di tecniche idonee di utilizzazione per la produzione di legname da opera, legna da ardere e carbone;
-- istituzione di un Servizio Forestale Nazionale;
-- assistenza tecnica per quanto concerne la legislazione forestale, tutela e gestione dei boschi, utilizzazioni forestali e commercio dei prodotti forestali, promozione di investimenti, divulgazione forestale;
-- formazione del personale (a livello universitario e tecnico) della nuova struttura istituzionale con la concessione di borse di studio, l’organizzazione di viaggi di studio all’estero;
-- formazione della manodopera del progetto;
-- impiego permanente ogni anno di 1.200 operai forestali;
-- sviluppo di attività di ricerca in vari settori (utilizzazione di alberi ed arbusti per la produzione di foraggio per il bestiame, sistemi di produzione di carbone, ecc.).
-
+adozione di interventi per la tutela dei rimboschimenti e delle foreste esistenti ed individuazione di tecniche idonee di utilizzazione per la produzione di legname da opera, legna da ardere e carbone;
+istituzione di un Servizio Forestale Nazionale;
+assistenza tecnica per quanto concerne la legislazione forestale, tutela e gestione dei boschi, utilizzazioni forestali e commercio dei prodotti forestali, promozione di investimenti, divulgazione forestale;
+formazione del personale (a livello universitario e tecnico) della nuova struttura istituzionale con la concessione di borse di studio, l’organizzazione di viaggi di studio all’estero;
+formazione della manodopera del progetto;
+impiego permanente ogni anno di 1.200 operai forestali;
+sviluppo di attività di ricerca in vari settori (utilizzazione di alberi ed arbusti per la produzione di foraggio per il bestiame, sistemi di produzione di carbone, ecc.).
 Il progetto ha conseguito risultati importanti grazie alle attività forestali per la lotta alla desertificazione, sia per l’impatto istituzionale e ciò grazie alla valida assistenza tecnica, alla partecipazione attiva della popolazione locale ed alla perfetta intesa fra gli esperti della FAO ed i colleghi del Servizio Forestale Nazionale.
 STR
 
@@ -215,59 +208,77 @@ STR
 
 
 intro_10 = <<STR
-Nome: Ristrutturazione limonaia Villa Rondinelli e restauro del giardino
+**Progetto “Studio per la ccostituzione di “Fondazione Internazionale sul Giardino ed il Paesaggio Pietro Porcinai”**
 
-Ubicazione: Fiesole (Firenze) - Italia
+1993-1995
 
-Anni: 1992-1994
-
-Dopo aver deciso di lasciare la professione forestale in ambito internazionale ed aver scelto di vivere a Firenze nella limonaia progettata da Pietro Porcinai mi sono occupata degli interventi di recupero e restauro della proprietà (che era stata abbandonata ed in stato di degrado), del disegno di alcuni arredi e del restauro del giardino.
+Finanziamento: Euro 5.000
 STR
 
 desc_10 = <<STR
-La limonaia o “serra - studio”, situata nei terrazzamenti sopra Villa Rondinelli a San Domenico , perfettamente inserita nello stupendo paesaggio collinare di Fiesole, ha un giardino pensile al piano superiore collocato sul tetto del pianterreno. Pietro Porcinai l’aveva progettata per adibirla a sede di un centro educativo per l’architettura dei giardini e del paesaggio.
-Dopo un periodo di degrado e in stato di abbandono ho recuperato e restaurato la proprietà ed il giardino, in particolare mi sono occupata dei seguenti interventi :
 
-- ristrutturazione e restauro dei locali della limonaia ed edifici annessi;
-- disegno di alcuni mobili (armadi e librerie-divisori dei locali e tavoli) e scelta degli arredi;
-- lavori di restauro del giardino - parco, caratterizzato da vegetazione tipicamente mediterranea, consistenti in interventi di ripulitura, potature e cure colturali degli alberi, rimodellamento delle siepi, impianto di siepi, di arbusti ed erbacee perenni ornamentali.
+L’esigenza di costituire una Fondazione Internazionale sul Giardino ed il Paesaggio dedicata al noto Paesaggista Pietro Porcinai, scaturiva dalla necessità di tutelare i suoi giardini ed altre realizzazioni nonchè il patrimonio archivistico, far conoscere la  sua figura ed Opera. 
+
+Lo studio ha consistito in:
+
+esame delle norme di legge e fiscali italiane e straniere inerenti le Fondazioni internazionali;
+contatti con numerose Istituzioni e personalità italiane straniere per l’attuazione del progetto;
+elaborazione della bozza di statuto  della Fondazione Internazionale in lingua italiana, inglese e francese;
+elaborazione di proposte di progetto per la ricerca di finanziamenti inerenti:
+
+catalogazione del materiale archivistico e costituzione di una banca dati per la conservazione e la fruizione del materiale da parte del pubblico;
+organizzazione di conferenze, seminari, visite dei giardini, per far conoscere le realizzazioni artistiche di Pietro Porcinai affinchè queste siano di esempio ed ispirazione per le generazioni future di paesaggisti nonchè stimolare interesse e maggiore comprensione sui problemi inerenti il giardino ed il paesaggio ; 
+pubblicazioni , diffusione ed utilizzazione dei dati e dei risultati di studi ed approfondimenti;
+borse di studio; in collaborazione con Istituzioni italiane e straniere presenti in Italia scelta di temi di approfondimento e selezione di candidati per la preparazione dei programmi di studi e di perfezionamento, con approfondimento dell’Opera e delle idee di Pietro Porcinai ..
 STR
 
 
 
 
 intro_12 = <<STR
-Nome: Recupero ambientale di una cava
+**Recupero ambientale di una cava**
 
-Ubicazione: Trasanello (Matera) - Italia
+**Trasanello -Matera**
 
-Anni: 1982-1982
+1982
 
-Committente: Italcementi
+superficie: 100 ha
 
-Dopo l’analisi delle diverse possibilità di utilizzazione del suolo, lo studio proponeva un piano di sistemazione della cava una volta terminato il suo sfruttamento per fini industriali.
-Il piano prevedeva la sistemazione definitiva del terreno su una superficie di circa 100 ha per il recupero non solo paesaggistico, ma anche produttivo dell’area, per un suo reinserimento nel contesto ambientale ed agro-economico della zona.
+Committente:Italcementi
 STR
 
 desc_12 = <<STR
-Lo studio prevedeva i seguenti interventi per il recupero ambientale di una cava una volta terminato lo sfruttamento del materiale calcareo:
-lavori di sistemazione del suolo, rinverdimento dei gradoni per la preparazione del terreno con l’utilizzo di piante pioniere, realizzazione di fasce di bosco in aree erbose per il recupero del territorio in un’ottica silvo-pastorale ed installazione di un’azienda di allevamento semi-intensivo ovino.
-Lo studio includeva l’analisi degli investimenti richiesti per il recupero dell’area interessata e la sua utilizzazione a scopo pastorale compatibile con la salvaguardia dell’ambiente.
+Italcementi incarica lo Studio di architettura del giardino e del Paesaggio Pietro Porcinai del recupero ambientale delal cava  una volta terminato il suo sfruttamento industriale.  Dopo l’analisi delle diverse possibilità di utilizzazione del suolo, lo studio proponeva un piano per il rinverdimento provvisorio e definitivo su una superficie di circa 100 ha per il recupero non solo paesaggistico, ma anche produttivo dell’area, per un suo reinserimento nel contesto ambientale ed agro-economico della zona.
+
+In particolare erano previsti, alla fine dello sfruttamento del materiale calcareo della cava interventi inerenti:
+
+- la sistemazione dei versanti a scarpata con riporto di terra e consolidamento dei pendii con impiego di tecniche di rinverdimento dei gradoni per la preparazione del terreno con l’utilizzo di piante pioniere,;
+- realizzazione di fasce di bosco in aree erbose per il recupero del territorio in un’ottica silvo-pastorale;
+- installazione di un’azienda di allevamento semi-intensivo ovino;
+- analisi degli investimenti richiesti per il recupero dell’area interessata e la sua utilizzazione a scopo pastorale compatibile con la salvaguardia dell’ambiente.
 STR
 
 
 
 
 intro_11 = <<STR
-  L’incarico di collaborazione riguardava la realizzazione di uno studio di sviluppo agricolo integrato nell’area del “Barrage vert” della regione di Batna ed in particolare:
-  
-  - lo studio della vegetazione e delle attività forestali in un’area di studio di 120.000 ha, delle risorse e delle potenzialità del settore forestale ed “alfatiero”
-  - lo studio degli interventi necessari di gestione delle foreste esistenti, dei rimboschimenti, della viabilità e delle infrastrutture  e delle utilizzazioni forestali nonchè dell’alfa in funzione dello sviluppo integrato agro-silvo-pastorale del perimetro
-  - l’elaborazione di un progetto esecutivo per lo sviluppo forestale di un perimetro di 10.000 ha scelto come intervento tipo fra quelli identificati.
+Nome: Studio di sviluppo integrato  del “barrage vert”
+
+Ubicazione: Batna - Algeria
+
+Anni: 1980 - 1981
+
+Superficie:  10.000 ha
+
+Committente: Ifagraria. Roma
 STR
 
 desc_11 = <<STR
+L’incarico di collaborazione riguardava la realizzazione di uno studio di sviluppo agricolo integrato nell’area del “Barrage vert” della regione di Batna ed in particolare:
 
+- lo studio della vegetazione e delle attività forestali in un’area di studio di 120.000 ha, delle risorse e delle potenzialità del settore forestale ed “alfatiero”
+- lo studio degli interventi necessari di gestione delle foreste esistenti, dei rimboschimenti, della viabilità e delle infrastrutture  e delle utilizzazioni forestali nonchè dell’alfa in funzione dello sviluppo integrato agro-silvo-pastorale del perimetro
+- l’elaborazione di un progetto esecutivo per lo sviluppo forestale di un perimetro di 10.000 ha scelto come intervento tipo fra quelli identificati.
 STR
 
 
