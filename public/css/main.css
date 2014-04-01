@@ -182,10 +182,10 @@ img {
   display: none; }
 
 .lavori .content .gal img {
-  margin-left: 2%;
-  margin-right: 14%;
-  margin-top: 2.4em;
-  margin-bottom: 2.4em; }
+  margin-left: 0;
+  margin-right: 6%;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em; }
 .lavori .content .gal img:nth-child(3n+2) {
   margin-right: 0; }
 
@@ -214,3 +214,11 @@ img {
 
 .home .content header img {
   width: 100px; }
+
+.lavoro .left {
+  float: left;
+  width: 70%;
+  padding-right: 5%; }
+.lavoro .right {
+  float: right;
+  width: 30%; }
