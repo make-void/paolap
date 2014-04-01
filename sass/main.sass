@@ -114,7 +114,6 @@ a
 
 #container > .inner > header
   background: #FFF
-  border-bottom: 2px solid $green
   padding: $u 0 0 0
   // box-shadow: 0 2px 6px #666
   $top: 18px
@@ -184,9 +183,9 @@ a
 // pages selective style - no more!
 
 #container > .content
-  padding: $u*10 $pu*2 0
+  padding: $u*10 $pu*5 0
 img
-  margin-right: $pu*2
+  margin-right: $pu*5
 
 
 =reset_margins
@@ -205,9 +204,11 @@ img
     padding: 0
     header
       position: absolute
-      top: $u * 14
+      top: $u * 20
       z-index: 22
-      left: $pu * 7
+      left: $pu * 5
+      h1
+        margin-top: 10px
     .inner
       padding: 0
     .bg
@@ -225,7 +226,7 @@ img
     .cont
       position: absolute
       bottom: 0
-      left: $pu * 7
+      left: $pu * 5
       color: white
       font-weight: bold
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, Verdana
@@ -282,7 +283,9 @@ img
   img, .center img
     width: 500px
 
-.content header img
-  width: $logo_width / 1.8
+.content header
+  margin-bottom: 10px
+  img
+    width: $logo_width / 1.8
 .home .content header img
   width: $logo_width
