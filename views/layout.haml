@@ -8,14 +8,16 @@
 
   %body{ class: body_class }
     #container
-      %header
-        %a{ href: "/" }
-          %img{ src: "/img/paola_porcinai_logo.png" }
-        %h1
-          %a{ href: "/" }= TITLE
-        = haml :_nav
       %section.content
         .inner
+          %header
+            %a{ href: "/" }
+              - unless body_class == "home"
+                %span <
+              %img{ src: "/img/paola_porcinai_logo.png" }
+            - if body_class == "home"
+              %h1
+                %a{ href: "/" }= TITLE
           = yield
           .clear
         .footer

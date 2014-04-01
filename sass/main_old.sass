@@ -28,32 +28,14 @@ a
 h1, h2
   margin-top: 0
 
-// units and colors
-
-$u: 0.4em
-$pu: 2%
-
-$text: #fff
-$green:       #083
-//$green: darken($green, 11)
-$green:      lighten( #23390d, 3 )
-// proposed green: #747700 , hmmm
-// a bit mejo green: #23390d
-$light_blue:  #E4FBFF
-
-$logo_width: 100px
-
-$black_shadow: 0px 0px 2px #111, 0px 1px 3px #222, 0px 1px 3px #222, 0px 1px 5px #444
-
 // base style
 
 body
   font-family: Helvetica, Arial, Verdana
   font-size: 110%
-  color: $text
-  background: $green
-  // margin: 0 0 35px 0
-
+  color: #222
+  margin: 0 0 35px 0
+  background: #EEE
 
 #container > header, #container > .content
   position: relative
@@ -77,55 +59,53 @@ body
   clear: both
 
 
+// units and colors
+
+$u: 0.4em
+$pu: 2%
+
+$green:       #083
+// proposed green: #747700 , hmmm
+// a bit mejo green: #23390d
+$light_blue:  #E4FBFF
+
 
 ul
   list-style-type: circle
   li
     margin-bottom: $u*2
     a
-      font-weight: bold
+      color: $green
   li::marker
     color: $green
 
 h1
-  color: $text
-
-
-header a h1
-  text-shadow: $black_shadow
-  font-size: 1.3em
+  color: darken($green, 8)
 
 p
-  line-height: $u * 4
-  +vmargin($u * 4)
+  +vmargin($u * 3)
 
 p.ns
   +vmargin($u/4)
 
 a
-  color: $text
+  color: $green
   &:hover
-    color: lightGreen
+    color: lighten($green, 10)
 
-
-.home #container > .inner > header img
-  width: $logo_width
-
-
-#container > .inner > header
+#container > header
   background: #FFF
   border-bottom: 2px solid $green
   padding: $u 0 0 0
-  // box-shadow: 0 2px 6px #666
+  box-shadow: 0 2px 6px #666
   $top: 18px
-  z-index: 311
   h1
     display: inline-block
     margin: 0 0 0 $pu/2
     position: relative
     top: -$top
   img // logo
-    width: $logo_width / 2
+    width: 70px
     display: inline-block
     margin: 0 0 0 $pu*2
   nav
@@ -140,39 +120,24 @@ a
       font-size: 0.8em
 
 #container > .content
-  width: 100%
-  background: $green
+  width: 100% - $pu*4
+  margin: 0 auto
+  background: #FFF
   padding: $u*3 $pu 0
   border: 1px solid #999
-  // box-shadow: 1px 3px 5px #AAA
+  box-shadow: 1px 3px 5px #AAA
   h1
     margin-bottom: $u*2
   .inner
-    min-height: $u * 65
-    margin-bottom: $u*15
+    min-height: $u * 60
+    padding-bottom: $u*3
   .footer
     text-align: center
     font-size: 0.8em
-    width: 100%
+    background: #EDFFEB
+    color: #444
+    width: 100% - $pu*30
     margin: 0 auto
-    //background: #EDFFEB
-    //color: #444
-
-.home_text
-  //background: rgba(100, 100, 100, 0.3)
-  width: $u * 60
-  font-size: 0.8em
-  position: absolute
-  bottom: - $u * 4
-  right: $pu * 4
-  text-shadow: $black_shadow
-  div
-    opacity: 0
-    position: absolute
-    top: - $u * 40
-    right: 0
-  div:first-child
-    opacity: 1
 
 
 .big
@@ -181,12 +146,14 @@ a
   font-weight: bold
 
 
-// pages selective style - no more!
+// pages selective style
 
-#container > .content
-  padding: $u*10 $pu*2 0
-img
-  margin-right: $pu*2
+
+.home
+  #container > .content
+    padding: $u*10 $pu*2 0
+  img
+    margin-right: $pu*2
 
 
 =reset_margins
@@ -194,20 +161,10 @@ img
   padding: 0
 
 
-#container > .content  header span
-  font-size: 2em
-  position: relative
-  bottom: 18px
-
 // home bg mod
 .home
   #container > .content
     padding: 0
-    header
-      position: absolute
-      top: $u * 14
-      z-index: 22
-      left: $pu * 7
     .inner
       padding: 0
     .bg
@@ -215,21 +172,20 @@ img
         opacity: 1
       img
         opacity: 0
+        width: 100%
         position: absolute
         top: 0
-        left: 0
-        width: 500px
         transition:         opacity 1s ease-in-out
         -webkit-transition: opacity 1s ease-in-out
         -moz-transition:    opacity 1s ease-in-out
     .cont
       position: absolute
-      bottom: 0
-      left: $pu * 7
+      bottom: 40px
+      left: 10%
       color: white
       font-weight: bold
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, Verdana
-      text-shadow: $black_shadow
+      text-shadow: 0px 0px 2px #111, 0px 1px 10px #444, 0px 1px 10px #444, 0px 1px 10px #444
       a
         color: white
         margin-bottom: 6px
@@ -252,7 +208,7 @@ img
     display: none
 
 
-.lavori .content .gal
+.lavori .content
   img
     //width: $pu*10
     margin-left: $pu
@@ -267,10 +223,6 @@ img
 .content img
   max-width: 100%
 
-.home .content img
-
-  max-width: none
-
 .curriculum, .contatti
   img
     margin: 0 auto
@@ -279,10 +231,5 @@ img
   width: 130px
 
 .contatti, .professione
-  img, .center img
+  img
     width: 500px
-
-.content header img
-  width: $logo_width / 1.8
-.home .content header img
-  width: $logo_width

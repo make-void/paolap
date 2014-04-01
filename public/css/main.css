@@ -13,9 +13,8 @@ h1, h2 {
 body {
   font-family: Helvetica, Arial, Verdana;
   font-size: 110%;
-  color: #222222;
-  margin: 0 0 35px 0;
-  background: #eeeeee; }
+  color: white;
+  background: #2b4510; }
 
 #container > header, #container > .content {
   position: relative; }
@@ -43,103 +42,134 @@ ul {
   ul li {
     margin-bottom: 0.8em; }
     ul li a {
-      color: #008833; }
+      font-weight: bold; }
   ul li::marker {
-    color: #008833; }
+    color: #2b4510; }
 
 h1 {
-  color: #005f24; }
+  color: white; }
+
+header a h1 {
+  text-shadow: 0px 0px 2px #111111, 0px 1px 3px #222222, 0px 1px 3px #222222, 0px 1px 5px #444444;
+  font-size: 1.3em; }
 
 p {
-  margin-top: 1.2em;
-  margin-bottom: 1.2em; }
+  line-height: 1.6em;
+  margin-top: 1.6em;
+  margin-bottom: 1.6em; }
 
 p.ns {
   margin-top: 0.1em;
   margin-bottom: 0.1em; }
 
 a {
-  color: #008833; }
+  color: white; }
   a:hover {
-    color: #00bb46; }
+    color: lightgreen; }
 
-#container > header {
+.home #container > .inner > header img {
+  width: 100px; }
+
+#container > .inner > header {
   background: white;
-  border-bottom: 2px solid #008833;
+  border-bottom: 2px solid #2b4510;
   padding: 0.4em 0 0 0;
-  box-shadow: 0 2px 6px #666666; }
-  #container > header h1 {
+  z-index: 311; }
+  #container > .inner > header h1 {
     display: inline-block;
     margin: 0 0 0 1%;
     position: relative;
     top: -18px; }
-  #container > header img {
-    width: 70px;
+  #container > .inner > header img {
+    width: 50px;
     display: inline-block;
     margin: 0 0 0 4%; }
-  #container > header nav {
+  #container > .inner > header nav {
     display: inline-block;
     margin: 0 0 0 2%;
     position: relative;
     top: -22px; }
-    #container > header nav a {
+    #container > .inner > header nav a {
       margin: 0 0.4em 0 0;
       text-transform: uppercase;
       font-weight: bold;
       font-size: 0.8em; }
 
 #container > .content {
-  width: 92%;
-  margin: 0 auto;
-  background: white;
+  width: 100%;
+  background: #2b4510;
   padding: 1.2em 2% 0;
-  border: 1px solid #999999;
-  box-shadow: 1px 3px 5px #aaaaaa; }
+  border: 1px solid #999999; }
   #container > .content h1 {
     margin-bottom: 0.8em; }
   #container > .content .inner {
-    min-height: 24em;
-    padding-bottom: 1.2em; }
+    min-height: 26em;
+    margin-bottom: 6em; }
   #container > .content .footer {
     text-align: center;
     font-size: 0.8em;
-    background: #edffeb;
-    color: #444444;
-    width: 40%;
+    width: 100%;
     margin: 0 auto; }
+
+.home_text {
+  width: 24em;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: -1.6em;
+  right: 8%;
+  text-shadow: 0px 0px 2px #111111, 0px 1px 3px #222222, 0px 1px 3px #222222, 0px 1px 5px #444444; }
+  .home_text div {
+    opacity: 0;
+    position: absolute;
+    top: -16em;
+    right: 0; }
+  .home_text div:first-child {
+    opacity: 1; }
 
 .big {
   margin: 20px 0;
   font-size: 1.8em;
   font-weight: bold; }
 
-.home #container > .content {
+#container > .content {
   padding: 4em 4% 0; }
-.home img {
+
+img {
   margin-right: 4%; }
+
+#container > .content header span {
+  font-size: 2em;
+  position: relative;
+  bottom: 18px; }
 
 .home #container > .content {
   padding: 0; }
+  .home #container > .content header {
+    position: absolute;
+    top: 5.6em;
+    z-index: 22;
+    left: 14%; }
   .home #container > .content .inner {
     padding: 0; }
   .home #container > .content .bg img:first-child {
     opacity: 1; }
   .home #container > .content .bg img {
     opacity: 0;
-    width: 100%;
     position: absolute;
     top: 0;
+    left: 0;
+    width: 500px;
     transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out; }
   .home #container > .content .cont {
     position: absolute;
-    bottom: 40px;
-    left: 10%;
+    bottom: 0;
+    left: 14%;
     color: white;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Verdana;
-    text-shadow: 0px 0px 2px #111111, 0px 1px 10px #444444, 0px 1px 10px #444444, 0px 1px 10px #444444; }
+    text-shadow: 0px 0px 2px #111111, 0px 1px 3px #222222, 0px 1px 3px #222222, 0px 1px 5px #444444; }
     .home #container > .content .cont a {
       color: white;
       margin-bottom: 6px; }
@@ -150,12 +180,12 @@ a {
 .home .footer {
   display: none; }
 
-.lavori .content img {
+.lavori .content .gal img {
   margin-left: 2%;
   margin-right: 14%;
   margin-top: 2.4em;
   margin-bottom: 2.4em; }
-.lavori .content img:nth-child(3n+2) {
+.lavori .content .gal img:nth-child(3n+2) {
   margin-right: 0; }
 
 .center {
@@ -164,11 +194,20 @@ a {
 .content img {
   max-width: 100%; }
 
+.home .content img {
+  max-width: none; }
+
 .curriculum img, .contatti img {
   margin: 0 auto; }
 
 .curriculum img {
   width: 130px; }
 
-.contatti img, .professione img {
+.contatti img, .contatti .center img, .professione img, .professione .center img {
   width: 500px; }
+
+.content header img {
+  width: 55.55556px; }
+
+.home .content header img {
+  width: 100px; }
