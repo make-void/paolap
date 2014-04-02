@@ -207,10 +207,11 @@ img {
 .curriculum img {
   width: 130px; }
 
-.contatti img.big, .professione img.big {
-  width: 80%;
-  margin: 0 auto;
-  display: block; }
+.contatti .rid, .professione .rid {
+  width: 60%; }
+  .contatti .rid img.big, .professione .rid img.big {
+    margin: 0 auto;
+    display: block; }
 
 .rid {
   width: 70%;
@@ -240,7 +241,6 @@ img {
   padding-left: 17px; }
 
 .text {
-  width: 80%;
   text-align: justify;
   margin: 0 auto; }
 
