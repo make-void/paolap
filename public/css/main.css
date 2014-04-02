@@ -11,7 +11,7 @@ h1, h2 {
   margin-top: 0; }
 
 body {
-  font-family: Helvetica Neue, Helvetica, Arial, Verdana;
+  font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Verdana;
   font-size: 110%;
   color: white;
   background: #a7a646; }
@@ -167,7 +167,7 @@ img {
     -moz-transition: opacity 1s ease-in-out; }
   .home #container > .content .cont {
     position: absolute;
-    bottom: 0;
+    bottom: 4px;
     left: 30%;
     color: white;
     font-weight: bold;
@@ -270,11 +270,15 @@ img {
   top: 120px;
   left: -3%; }
 
+nav a {
+  font-family: Gill Sans;
+  font-weight: normal; }
+
 .pp {
+  font-family: Gill Sans;
   position: absolute;
   bottom: 0.4em;
-  left: 14%;
-  font-weight: bold; }
+  left: 14%; }
 
 .sborder {
   width: 100%;
