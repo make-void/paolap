@@ -168,7 +168,7 @@ img {
   .home #container > .content .cont {
     position: absolute;
     bottom: 0;
-    left: 10%;
+    left: 30%;
     color: white;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Verdana;
@@ -208,7 +208,7 @@ img {
   width: 130px; }
 
 .contatti img.big, .professione img.big {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   display: block; }
 
@@ -225,16 +225,22 @@ img {
 .home .content header img {
   width: 100px; }
 
-.lavoro .left {
+.page > div {
+  border-top: 2px solid white; }
+.page .left {
+  padding-top: 1.6em;
   float: left;
-  width: 70%;
-  padding-right: 5%; }
-.lavoro .right {
+  width: 60%;
+  margin-left: 10%; }
+.page .right {
   float: right;
-  width: 30%; }
+  width: 25%; }
+
+.rid ul, .page ul {
+  padding-left: 17px; }
 
 .text {
-  width: 70%;
+  width: 80%;
   text-align: justify;
   margin: 0 auto; }
 
@@ -253,7 +259,7 @@ img {
   bottom: 0; }
 
 .bar.bar_left {
-  left: 8%; }
+  left: 28%; }
 
 .bar.bar_right {
   right: 48%; }
@@ -263,3 +269,20 @@ img {
   float: left;
   top: 120px;
   left: -3%; }
+
+.pp {
+  position: absolute;
+  bottom: 0.4em;
+  left: 14%;
+  font-weight: bold; }
+
+.sborder {
+  width: 100%;
+  border-top: 2px solid white; }
+
+.rid {
+  padding-top: 2em;
+  border-top: 2px solid white; }
+
+.block.rid {
+  border: 0; }

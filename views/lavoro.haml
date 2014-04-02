@@ -1,17 +1,16 @@
 //%h1= @lavoro.nome
 
-.rid
-  .page
-    .right
-      :markdown
-        #{@lavoro.introduzione}
+.page
+  .right
+    :markdown
+      #{@lavoro.introduzione}
 
-    .left
-      .gal
-        = haml :_foto
+  .left
+    .gal
+      = haml :_foto
 
 
-      :markdown
-        #{@lavoro.descrizione}
+    :markdown
+      #{@lavoro.descrizione}
 
 .clear

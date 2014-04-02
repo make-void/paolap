@@ -55,7 +55,6 @@ Il progetto ha conseguito risultati importanti grazie alle attività forestali p
 STR
 
 intro_5 = <<STR
-
 **Programma di rimboschimenti per la produzione di legna da ardere ed attivita di formazione e divulgative**
 
 Baringo - Kenya
@@ -105,7 +104,7 @@ Donatori: UNSO (Fondo delle Nazioni Unite per il Sahel): US.$ 2.863.579 FENU (Fo
 
 Controparte: Ministero dello Sviluppo Rurale - Direzione della Protezione della Natura
 
-Finanziamento totale: (US $) : 6.325.000 
+Finanziamento totale: (US $) : 6.325.000
 STR
 
 desc_6 = <<STR
@@ -118,29 +117,29 @@ La Mauritania è una terra difficile: 398.000 miglia quadrate (cioè 1 milione e
 Il progetto ha realizzato interventi importanti e cioè:
 
 - protezione dall’insabbiamento di 15 aree, considerate rappresentative della principale tipologia di insabbiamento (4 oasi nel nord e centro-est del paese; 2 villaggi con aree agricole nell’area silvo-pastorale; 4 aree lungo la “Route de l’Espoir” principale asse stradale del Paese lunga 1.099 Km ed avente un ruolo vitale per 460.000 abitanti residenti e 400.000 nomadi; 5 centri abitati importanti dal punto di vista amministrativo e commerciale.
- 
-Le tecniche adottate hanno consistito: 
+
+Le tecniche adottate hanno consistito:
 
 - nella stabilizzazione meccanica delle dune alte da 3 -6 metri a 30 metri mediante la creazione di barriere artificiali (superficie trattata 1.163 ha);
 
-- nella fissazione delle dune con il rimboschimento (superficie 1.413 ha) o la semina di specie vegetali autoctone arboree, arbustive o erbacee; 
+- nella fissazione delle dune con il rimboschimento (superficie 1.413 ha) o la semina di specie vegetali autoctone arboree, arbustive o erbacee;
 
 - protezione delle aree oggetto degli interventi.
 
 L’impatto del progetto sulla popolazione e sul territorio ha determinato:
- 
+
 - il miglioramento delle condizioni di vita di 80.710 abitanti e 130 ha di habitat umani (case, pozzi, strade);
- 
+
 - la protezione di 1.700 ha di aree agricole (palmeti, aree coltivate a cereali) e il miglioramento dei pascoli con importanti vantaggi economici e sociali;
- 
+
 - la protezione di 10.950 m lineari di fronte delle dune in movimento lungo la “Route de l’Espoir” con risparmio di US$ 1.100.000 all’anno sul costo per le operazioni di disinsabbiamento della strada e miglioramento della circolazione stradale;
- 
+
 - la produzione di legname e di foraggio con il rimboschimento di 894 ha utilizzando Prosopis ssp, Parkinsonia ssp, Leptadenia spp;
 
 - la formazione di 23 unità a livello universitario, di 30 tecnici e 200 operai in tecniche di stabilizzazione meccanica delle dune, piantagione, vivaismo;
- 
+
 - la ricerca e la sperimentazione in tecniche di fissazione delle dune, tecniche di riproduzione delle piante utilizzate per i rimboschimenti e delle piante impiegate per la stabilizzazione meccanica delle dune;
- 
+
 - la sensibilizzazione delle popolazioni locali alla lotta contro la desertificazione.
 STR
 
@@ -179,7 +178,7 @@ STR
 intro_8 = <<STR
 **Assistenza tecnica alla Divisione delle Foreste**
 
-Maseru . Lesotho
+Maseru - Lesotho
 
 1982-1988
 
@@ -207,6 +206,7 @@ intro_9 = <<STR
 **Sviluppo forestale per la protezione del territorio e la produzione di legname**
 
 Tongyu, Jinxian, Zhangutai - Regione di Jilin - Cina
+
 1989 - 1991
 
 Finanziatore: Belgio
@@ -237,6 +237,7 @@ intro_10 = <<STR
 **Ristrutturazione limonaia di Villa Rondinelli e ripristino del giardino.**
 
 San Domenico di Fiesole (Firenze) - Italia
+
 1992 - 1998
 
 Proprietà : Paola Porcinai
@@ -326,7 +327,7 @@ Conferenza su *“ Uno sguardo sul paesaggio del Novecento.”* Incontro di stud
 **2012**
 
 1) Visite di vari giardini ed altre opere di Pietro Porcinai per studio, documentazione fotografica ed inserimento delle relative schede di lavoro sul sito web (pietroporcinai.it)[http://pietroporcinai.it] ;
-2) Articolo pubblicato sul n. speciale di GARDENIA (febbraio) sul terrazzo progettato da Pietro Porcinai di Palazzo Gondi a Firenze.  Collaborazione con la giornalista MariaCristina Zaza;
+2) Articolo pubblicato sul n. speciale di GARDENIA (febbraio) sul terrazzo progettato da Pietro Porcinai di Palazzo Gondi a Firenze. Collaborazione con la giornalista MariaCristina Zaza;
 3) Articolo sul giardino di Villa Ottolenghi *“Tra geometrie rinascimentali e suggestioni metafisiche”* pubblicato sul n. 133 (genn-febbr.) della rivista OLTRE, bimestrale di cultura, ambiente e turismo; 
 Pubblicazione di alcune foto del giardino di Paola Porcinai.
 4) European Garden Award 2012-Lettera del 22 luglio di Paola Porcinai a Mr Jens Spanjer -Scloss Dyck Foundation, Centre for Garden Art and landscape Design per informare delle numerose attività svolte nel corso degli anni per far conoscere e valorizzare la figura ed opera di Pietro Porcinai e tutelare la sua Opera; 
@@ -470,8 +471,8 @@ STR
       {
         id: 13,
         nome: "Attività culturali e divulgative in ricordo di Pietro Porcinai per la tutela delle sue Opere e dell’archivio.",
-        ubicazione: "Trasanello (Matera) - Italia",
-        anni: "1982",
+        ubicazione: "Fiesole (Firenze) - Italia",
+        anni: "1995-2014",
         introduzione: intro_13,
         descrizione:  desc_13,
         studio: false,
