@@ -390,7 +390,20 @@ Finanziamento: Euro 5.000
 STR
 
 desc_14 = <<STR
-da inserire
+
+L’esigenza di costituire una Fondazione Internazionale sul Giardino ed il Paesaggio dedicata al noto Paesaggista Pietro Porcinai, scaturiva dalla necessità di tutelare i suoi giardini ed altre realizzazioni nonchè il patrimonio archivistico, far conoscere la  sua figura ed Opera. 
+
+Lo studio ha consistito in:
+
+esame delle norme di legge e fiscali italiane e straniere inerenti le Fondazioni internazionali;
+contatti con numerose Istituzioni e personalità italiane straniere per l’attuazione del progetto;
+elaborazione della bozza di statuto  della Fondazione Internazionale in lingua italiana, inglese e francese;
+elaborazione di proposte di progetto per la ricerca di finanziamenti inerenti:
+
+catalogazione del materiale archivistico e costituzione di una banca dati per la conservazione e la fruizione del materiale da parte del pubblico;
+organizzazione di conferenze, seminari, visite dei giardini, per far conoscere le realizzazioni artistiche di Pietro Porcinai affinchè queste siano di esempio ed ispirazione per le generazioni future di paesaggisti nonchè stimolare interesse e maggiore comprensione sui problemi inerenti il giardino ed il paesaggio ; 
+pubblicazioni , diffusione ed utilizzazione dei dati e dei risultati di studi ed approfondimenti;
+borse di studio; in collaborazione con Istituzioni italiane e straniere presenti in Italia scelta di temi di approfondimento e selezione di candidati per la preparazione dei programmi di studi e di perfezionamento, con approfondimento dell’Opera e delle idee di Pietro Porcinai.
 STR
 
 
