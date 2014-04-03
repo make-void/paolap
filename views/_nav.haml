@@ -1,5 +1,6 @@
 %nav
-  %a{ href: "/" }             home
+  - unless body_class == "home"
+    %a{ href: "/" }             home 
   %a{ href: "/curriculum" }   CV
   %a{ href: "/professione" }  professione
   %a{ href: "/studi" }        studi

@@ -12,7 +12,7 @@ h1, h2 {
 
 body {
   font-family: Helvetica Neue, Helvetica, Arial, Verdana;
-  font-size: 110%;
+  font-size: 90%;
   color: white;
   background: #a7a646; }
 
@@ -116,8 +116,8 @@ a {
   width: 38%;
   font-size: 0.8em;
   position: absolute;
-  bottom: -1.6em;
-  right: 8%;
+  bottom: -2em;
+  right: 9%;
   text-shadow: 0px 0px 0px white; }
   .home_text div {
     opacity: 0;
@@ -167,8 +167,8 @@ img {
     -moz-transition: opacity 1s ease-in-out; }
   .home #container > .content .cont {
     position: absolute;
-    bottom: 0;
-    left: 30%;
+    bottom: 10px;
+    left: 29%;
     color: white;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Verdana;
@@ -251,7 +251,7 @@ img {
   padding-top: 8em; }
 
 .bar {
-  height: 180px;
+  height: 138px;
   width: 3px;
   background: white;
   display: block;
@@ -270,11 +270,13 @@ img {
   top: 120px;
   left: -3%; }
 
+.cont nav a {
+  font-weight: normal; }
+
 .pp {
   position: absolute;
   bottom: 0.4em;
-  left: 14%;
-  font-weight: bold; }
+  right: 73%; }
 
 .sborder {
   width: 100%;
