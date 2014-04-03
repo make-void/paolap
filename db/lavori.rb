@@ -290,10 +290,6 @@ STR
 intro_11 = <<STR
 Nome: Studio di sviluppo integrato  del “barrage vert”
 
-Ubicazione: Batna - Algeria
-
-Anni: 1980 - 1981
-
 Superficie:  10.000 ha
 
 Committente: Ifagraria. Roma
@@ -385,6 +381,19 @@ Partecipazione di Paola Porcinai ad Expoflora di Roma (3-6 febbraio 2011 – Pol
 - organizzazione di numerose visite ai giardini realizzati da Pietro Porcinai in varie regioni italiane per studenti, professionisti italiani e stranieri.
 STR
 
+intro_14 = <<STR
+Progetto: Studio per la costituzione di “Fondazione Internazionale sul Giardino ed il Paesaggio Pietro Porcinai”
+
+1993-1995
+
+Finanziamento: Euro 5.000
+STR
+
+desc_14 = <<STR
+da inserire
+STR
+
+
 # LAVORI
 [
   {
@@ -459,24 +468,34 @@ STR
     descrizione:  desc_11,
     studio: true,
   },
-    {
-      id: 12,
-      nome: "Recupero ambientale di una cava",
-      ubicazione: "Trasanello (Matera) - Italia",
-      anni: "1982",
-      introduzione: intro_12,
-      descrizione:  desc_12,
-      studio: true,
-    },
-      {
-        id: 13,
-        nome: "Attività culturali e divulgative in ricordo di Pietro Porcinai per la tutela delle sue Opere e dell’archivio.",
-        ubicazione: "Fiesole (Firenze) - Italia",
-        anni: "1995-2014",
-        introduzione: intro_13,
-        descrizione:  desc_13,
-        studio: false,
-      },
+  {
+    id: 12,
+    nome: "Recupero ambientale di una cava",
+    ubicazione: "Trasanello (Matera) - Italia",
+    anni: "1982",
+    introduzione: intro_12,
+    descrizione:  desc_12,
+    studio: true,
+  },
+  {
+    id: 13,
+    nome: "Attività culturali e divulgative in ricordo di Pietro Porcinai per la tutela delle sue Opere e dell’archivio.",
+    ubicazione: "Fiesole (Firenze) - Italia",
+    anni: "1995-2014",
+    introduzione: intro_13,
+    descrizione:  desc_13,
+    studio: false,
+  },
+  {
+    id: 14,
+    nome: "Studio per la ccostituzione di “Fondazione Internazionale sul Giardino ed il Paesaggio Pietro Porcinai”",
+    ubicazione: "Fiesole (Firenze) - Italia",
+    anni: "1993-1995",
+    introduzione: intro_14,
+    descrizione:  desc_14,
+    studio: true,
+  },
+
 ]
 
 

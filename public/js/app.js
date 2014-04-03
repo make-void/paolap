@@ -76,7 +76,7 @@ gal_resize = function() {
 
 set_home_height = function() {
   return $(".inner").css({
-    minHeight: $(window).height() - 200
+    minHeight: $(window).height()
   });
 };
 

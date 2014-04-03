@@ -5,7 +5,11 @@ body {
   margin: 0; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: bold; }
+
+nav a {
+  font-weight: normal; }
 
 h1, h2 {
   margin-top: 0; }
@@ -15,9 +19,6 @@ body {
   font-size: 90%;
   color: white;
   background: #a7a646; }
-
-#container > header, #container > .content {
-  position: relative; }
 
 #container > header {
   z-index: 2; }
@@ -47,7 +48,8 @@ ul {
     color: #a7a646; }
 
 h1 {
-  color: white; }
+  color: white;
+  font-size: 1.35em; }
 
 header a h1 {
   text-shadow: 0px 0px 0px white;
@@ -70,62 +72,22 @@ a {
 .home #container > .inner > header img {
   width: 100px; }
 
-#container > .inner > header {
-  background: white;
-  padding: 0.4em 0 0 0;
-  z-index: 311; }
-  #container > .inner > header h1 {
-    display: inline-block;
-    margin: 0 0 0 1%;
-    position: relative;
-    top: -18px; }
-  #container > .inner > header img {
-    width: 50px;
-    position: relative;
-    bottom: 540px;
-    display: inline-block;
-    margin: 0 0 0 4%; }
-  #container > .inner > header nav {
-    display: inline-block;
-    margin: 0 0 0 2%;
-    position: relative;
-    top: -22px; }
-    #container > .inner > header nav a {
-      margin: 0 0.4em 0 0;
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 0.8em; }
-
-#container > .content {
-  width: 100%;
-  background: #a7a646;
-  padding: 1.2em 2% 0;
-  border: 1px solid #999999; }
-  #container > .content h1 {
-    margin-bottom: 0.8em; }
-  #container > .content .inner {
-    min-height: 26em;
-    margin-bottom: 6em; }
-  #container > .content .footer {
-    text-align: center;
-    font-size: 0.8em;
-    width: 100%;
-    margin: 0 auto; }
-
 .home_text {
+  position: absolute;
   width: 38%;
   font-size: 0.8em;
-  position: absolute;
-  bottom: -2em;
-  right: 9%;
+  bottom: 0px;
+  right: 8.6%;
   text-shadow: 0px 0px 0px white; }
   .home_text div {
-    opacity: 0;
     position: absolute;
+    opacity: 0;
     top: -16em;
     right: 0; }
   .home_text div:first-child {
     opacity: 1; }
+  .home_text .bah {
+    left: -3px; }
 
 .big {
   margin: 20px 0;
@@ -138,15 +100,9 @@ a {
 img {
   margin-right: 10%; }
 
-#container > .content header span {
-  font-size: 2em;
-  position: relative;
-  bottom: 18px; }
-
 .home #container > .content {
   padding: 0; }
   .home #container > .content header {
-    position: absolute;
     top: 8em;
     z-index: 22;
     left: 10%; }
@@ -167,7 +123,7 @@ img {
     -moz-transition: opacity 1s ease-in-out; }
   .home #container > .content .cont {
     position: absolute;
-    bottom: 10px;
+    bottom: -10px;
     left: 29%;
     color: white;
     font-weight: bold;
@@ -214,7 +170,8 @@ img {
     display: block; }
 
 .rid {
-  width: 70%;
+  width: 65%;
+  max-width: 650px;
   margin: 0 auto; }
 
 .content header {
@@ -232,10 +189,10 @@ img {
   padding-top: 1.6em;
   float: left;
   width: 60%;
-  margin-left: 10%; }
+  margin-left: 15%; }
 .page .right {
   float: right;
-  width: 25%; }
+  width: 20%; }
 
 .rid ul, .page ul {
   padding-left: 17px; }
@@ -247,11 +204,8 @@ img {
 .block nav a {
   display: block; }
 
-.rid nav {
-  padding-top: 8em; }
-
 .bar {
-  height: 138px;
+  height: 164px;
   width: 3px;
   background: white;
   display: block;
@@ -259,24 +213,30 @@ img {
   bottom: 0; }
 
 .bar.bar_left {
-  left: 28%; }
+  right: 68%;
+  height: 120px; }
 
 .bar.bar_right {
-  right: 48%; }
+  right: 47.4%; }
 
 .bar.bar_left_page {
-  position: relative;
-  float: left;
+  position: absolute;
   top: 120px;
-  left: -3%; }
+  right: 81%;
+  height: 120px; }
 
-.cont nav a {
+.cont nav a, .pp a {
   font-weight: normal; }
 
 .pp {
   position: absolute;
-  bottom: 0.4em;
-  right: 73%; }
+  right: 82.7%;
+  bottom: 0px;
+  text-align: right; }
+
+.home .pp {
+  position: absolute;
+  right: 70%; }
 
 .sborder {
   width: 100%;
@@ -287,7 +247,25 @@ img {
   border-top: 2px solid white; }
 
 .block.rid {
-  border: 0; }
+  border: 0;
+  margin-bottom: 20px;
+  padding-top: 8.4em;
+  position: relative; }
+  .block.rid nav {
+    position: relative;
+    right: -20%;
+    bottom: 0; }
+
+.home .block.rid {
+  margin-bottom: 5px;
+  position: absolute;
+  padding-top: 0;
+  left: 0;
+  bottom: 0; }
+  .home .block.rid nav {
+    position: relative;
+    bottom: 0;
+    left: 33%; }
 
 .under {
   text-align: center;

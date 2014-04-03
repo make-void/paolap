@@ -17,11 +17,12 @@
                 %img{ src: "/img/paola_porcinai_logo.png" }/
 
           = yield
+
           .block.rid
+            .pp
+              %a{ href: "/" } Paola Porcinai
             - if body_class == "home"
               .bar.bar_left
-              .pp
-                Paola Porcinai
             - else
               .bar.bar_left_page
             = haml :_nav
