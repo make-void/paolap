@@ -139,13 +139,23 @@ img {
 .home .footer {
   display: none; }
 
-.lavori .content .gal img {
-  margin-left: 0;
-  margin-right: 6%;
-  margin-top: 0.8em;
-  margin-bottom: 0.8em; }
-.lavori .content .gal img:nth-child(3n+2) {
-  margin-right: 0; }
+.content .gal img {
+  width: 49%;
+  padding: 0;
+  margin: 0;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em; }
+.content .gal:nth-child(2n) {
+  padding-right: 3%;
+  padding-right: 0; }
+.content .gal:nth-child(2n+1) {
+  padding-left: 3%;
+  padding-left: 0; }
+
+.gal_one img {
+  width: 100%; }
 
 .center {
   text-align: center;
@@ -159,6 +169,9 @@ img {
 
 .curriculum img, .contatti img {
   margin: 0 auto; }
+
+.contatti section {
+  margin-bottom: 70px; }
 
 .curriculum img {
   width: 130px; }
@@ -183,16 +196,19 @@ img {
 .home .content header img {
   width: 100px; }
 
-.page > div {
-  border-top: 2px solid white; }
-.page .left {
-  padding-top: 1.6em;
-  float: left;
-  width: 60%;
-  margin-left: 15%; }
-.page .right {
-  float: right;
-  width: 20%; }
+.page {
+  max-width: 1000px;
+  margin: 0 auto; }
+  .page > div {
+    border-top: 2px solid white; }
+  .page .left {
+    padding-top: 1.6em;
+    float: left;
+    width: 50%;
+    margin-left: 20%; }
+  .page .right {
+    float: right;
+    width: 22%; }
 
 .rid ul, .page ul {
   padding-left: 17px; }

@@ -5,7 +5,7 @@ Isole di Santiago e Maio-Capo verde
 
 1982 - 1988
 
-Superficie: 5.000 ha
+superficie: 5.000 ha
 
 Paese finanziatore: Belgio
 
@@ -33,9 +33,9 @@ Attività e risultati :
 
 Dal 1982-1988 il progetto ha conseguito i risultati seguenti:
 
-- individuazione di tecniche idonee di rimboschimento e selezione di specie adatte capaci di vivere in condizioni ambientali difficili.Dopo prove di piantagione effettuate impiegando circa 60 specie diverse sono state scelte per i rimboschimenti, per i migliori risultati in termini di sopravvivenza, resistenza e sviluppo, Eucalyptus sp., Pinus sp., Acacia sp. per le aree con altitudine compresa fra 700m e 1500 m e Prosopis juliflora e Parkinsonia aculeata per i terreni di pianura (da 0 a 300 m).
+- individuazione di tecniche idonee di rimboschimento e selezione di specie adatte capaci di vivere in condizioni ambientali difficili.Dopo prove di piantagione effettuate impiegando circa 60 specie diverse sono state scelte per i rimboschimenti, per i migliori risultati in termini di sopravvivenza, resistenza e sviluppo, *Eucalyptus sp., Pinus sp., Acacia sp.* per le aree con altitudine compresa fra 700m e 1500 m e *Prosopis juliflora* e *Parkinsonia aculeata* per i terreni di pianura (da 0 a 300 m).
 
-Nelle aree montane sono state ricostituite foreste distrutte e fortemente degradate in seguito ai tagli indiscriminati. Nelle pianure e sugli altopiani sono state realizzate piantagioni con specie aventi le caratteristiche seguenti: resistenza all’aridità, facilità di sviluppo in condizioni climatiche ed ecologiche difficili, fornitura di legname da opera, legna da ardere o di biomassa da utilizzare come foraggio per il bestiame. Le tecniche di rimboschimento impiegate consistevano nella preparazione del terreno in “banquettes”, “caldeiras” e piantagione degli alberi nella stagione piovosa. Tali tecniche denominate “run-off planting” migliorando la ritenzione idrica del terreno, favorivano le condizioni di vita dei giovani alberi anche nei periodi di siccità. Durante sei anni di attività sono stati rimboschiti nelle isole di Santiago e di Maio oltre 5.000 ha e piantati ben 650.000 alberi;
+Nelle aree montane sono state ricostituite foreste distrutte e fortemente degradate in seguito ai tagli indiscriminati. Nelle pianure e sugli altopiani sono state realizzate piantagioni con specie aventi le caratteristiche seguenti: resistenza all’aridità, facilità di sviluppo in condizioni climatiche ed ecologiche difficili, fornitura di legname da opera, legna da ardere o di biomassa da utilizzare come foraggio per il bestiame. Le tecniche di rimboschimento impiegate consistevano nella preparazione del terreno in *“banquettes”*, *“caldeiras”* e piantagione degli alberi nella stagione piovosa. Tali tecniche denominate *“run-off planting”* migliorando la ritenzione idrica del terreno, favorivano le condizioni di vita dei giovani alberi anche nei periodi di siccità. Durante sei anni di attività sono stati rimboschiti nelle isole di Santiago e di Maio oltre 5.000 ha e piantati ben 650.000 alberi;
 
 - adozione di interventi per la tutela dei rimboschimenti e delle foreste esistenti ed individuazione di tecniche idonee di utilizzazione per la produzione di legname da opera, legna da ardere e carbone;
 
@@ -78,7 +78,7 @@ Gli interventi realizzati dal progetto sono stati:
 
 - l'elaborazione di piani di gestione integrata a medio e a lungo termine dei boschi oggetto di tutela, in modo da ottimizzarne le loro funzioni dirette (protezione del terreno, della biodiversità, fornitura di legname ed altri prodotti forestali, ecc.) ed indirette (valori paesaggistici, ambientali, culturali, ecc.) ;
 
-- la creazione di nuove risorse forestali mediante il rimboschimernto e la piantagione di alberi (Acacia spp. Combretum,Terminalia, Prosopis juliflora, Parkinsonia aculeata, ecc.) ed arbusti multi-uso nelle aree agricole o pastorali per la produzione di legname da opera, legna da ardere e di foraggio;
+- la creazione di nuove risorse forestali mediante il rimboschimernto e la piantagione di alberi (Acacia spp. *Combretum, Terminalia, Prosopis juliflora, Parkinsonia aculeata*, ecc.) ed arbusti multi-uso nelle aree agricole o pastorali per la produzione di legname da opera, legna da ardere e di foraggio;
 
 - lo sviluppo di attività di promozione degli interventi di piantagione degli alberi forestali da parte degli agricoltori, la realizzazione di piccoli vivai forestali;
 
@@ -134,7 +134,7 @@ L’impatto del progetto sulla popolazione e sul territorio ha determinato:
 
 - la protezione di 10.950 m lineari di fronte delle dune in movimento lungo la “Route de l’Espoir” con risparmio di US$ 1.100.000 all’anno sul costo per le operazioni di disinsabbiamento della strada e miglioramento della circolazione stradale;
 
-- la produzione di legname e di foraggio con il rimboschimento di 894 ha utilizzando Prosopis ssp, Parkinsonia ssp, Leptadenia spp;
+- la produzione di legname e di foraggio con il rimboschimento di 894 ha utilizzando *Prosopis ssp, Parkinsonia ssp, Leptadenia spp*;
 
 - la formazione di 23 unità a livello universitario, di 30 tecnici e 200 operai in tecniche di stabilizzazione meccanica delle dune, piantagione, vivaismo;
 
@@ -215,13 +215,13 @@ Controparte: Ministero delle Foreste
 STR
 
 desc_9 = <<STR
-Il patrimonio forestale naturale ha subìto negli ultimi 40 anni gravi perdite a causa dello sviluppo eccessivo delle infrastrutture. Gli interventi di ricostituzione delle risorse forestali sono una componente importante della politica forestale del Paese, infatti sono stati realizzati programmi nazionali di rimboschimento su vasta scala come “The Green Great Wall “ attuato su una superficie di 3.470.000 Km2, esteso per 7.000 Km e interssante  12 province o come “Il Great Plans”, nell’ambito del quale sono stati rimboschiti 100 milioni di ettari con tecniche agro-forestali. I rimboschimenti prevedono l’impiego di specie a rapido accrescimento o multi-uso, piantagioni miste di varie specie in associazione con colture agricole con una componente di protezione del suolo e dell’ecosistema, turni brevi, utilizzazioni intensive. L’obiettivo principale del progetto era il rimboschimento di un’area di 5.000 ha, nella provincia di Jilin, soggetta ad erosione eolica ed idrica per proteggere le aree coltivate e ricostituire le risorse forestali per la produzione di legname.
+Il patrimonio forestale naturale ha subìto negli ultimi 40 anni gravi perdite a causa dello sviluppo eccessivo delle infrastrutture. Gli interventi di ricostituzione delle risorse forestali sono una componente importante della politica forestale del Paese, infatti sono stati realizzati programmi nazionali di rimboschimento su vasta scala come *“The Green Great Wall“* attuato su una superficie di 3.470.000 Km2, esteso per 7.000 Km e interssante  12 province o come *“Il Great Plans”*, nell’ambito del quale sono stati rimboschiti 100 milioni di ettari con tecniche agro-forestali. I rimboschimenti prevedono l’impiego di specie a rapido accrescimento o multi-uso, piantagioni miste di varie specie in associazione con colture agricole con una componente di protezione del suolo e dell’ecosistema, turni brevi, utilizzazioni intensive. L’obiettivo principale del progetto era il rimboschimento di un’area di 5.000 ha, nella provincia di Jilin, soggetta ad erosione eolica ed idrica per proteggere le aree coltivate e ricostituire le risorse forestali per la produzione di legname.
 
 Il progetto ha realizzato i seguenti interventi:
 
 - produzione di materiale di propagazione forestale da utilizzare per i rimboschimenti ed impianto di vivai forestali;
 
-- piantagione di Populus ssp. (specie indigene ed introdotte come Populus nigra var. italica, Populus euroamericana, ed altre) con tecniche di piantagione meccanizzata, di Pinus sylvestris, Robinia pseudoacacia, Salix ssp. per ricostituire il terreno, produrre legname ed incrementare la produzione agricola e foraggera;
+- piantagione di *Populus ssp.* (specie indigene ed introdotte come *Populus nigra var. italica, Populus euroamericana*, ed altre) con tecniche di piantagione meccanizzata, di *Pinus sylvestris*, *Robinia pseudoacacia, Salix ssp*. per ricostituire il terreno, produrre legname ed incrementare la produzione agricola e foraggera;
 
 - formazione del personale a livello locale in tecniche di piantagione, cure colturali, gestione dei rimboschimenti, colture agroforestali, vivai forestali, ecc.;
 
@@ -267,7 +267,7 @@ intro_12 = <<STR
 
 superficie: 100 ha
 
-Committente:Italcementi
+committente:Italcementi
 STR
 
 desc_12 = <<STR
@@ -288,11 +288,15 @@ STR
 
 
 intro_11 = <<STR
-Nome: Studio di sviluppo integrato  del “barrage vert”
+**Studio di sviluppo integrato  del “barrage vert”**
 
-Superficie:  10.000 ha
+Batna - Algeria
 
-Committente: Ifagraria. Roma
+1980 - 1981
+
+superficie:  10.000 ha
+
+committente: Ifagraria. Roma
 STR
 
 desc_11 = <<STR
@@ -391,7 +395,7 @@ STR
 
 desc_14 = <<STR
 
-L’esigenza di costituire una Fondazione Internazionale sul Giardino ed il Paesaggio dedicata al noto Paesaggista Pietro Porcinai, scaturiva dalla necessità di tutelare i suoi giardini ed altre realizzazioni nonchè il patrimonio archivistico, far conoscere la  sua figura ed Opera. 
+L’esigenza di costituire una Fondazione Internazionale sul Giardino ed il Paesaggio dedicata al noto Paesaggista Pietro Porcinai, scaturiva dalla necessità di tutelare i suoi giardini ed altre realizzazioni nonchè il patrimonio archivistico, far conoscere la  sua figura ed Opera.
 
 Lo studio ha consistito in:
 
@@ -401,7 +405,7 @@ elaborazione della bozza di statuto  della Fondazione Internazionale in lingua i
 elaborazione di proposte di progetto per la ricerca di finanziamenti inerenti:
 
 catalogazione del materiale archivistico e costituzione di una banca dati per la conservazione e la fruizione del materiale da parte del pubblico;
-organizzazione di conferenze, seminari, visite dei giardini, per far conoscere le realizzazioni artistiche di Pietro Porcinai affinchè queste siano di esempio ed ispirazione per le generazioni future di paesaggisti nonchè stimolare interesse e maggiore comprensione sui problemi inerenti il giardino ed il paesaggio ; 
+organizzazione di conferenze, seminari, visite dei giardini, per far conoscere le realizzazioni artistiche di Pietro Porcinai affinchè queste siano di esempio ed ispirazione per le generazioni future di paesaggisti nonchè stimolare interesse e maggiore comprensione sui problemi inerenti il giardino ed il paesaggio ;
 pubblicazioni , diffusione ed utilizzazione dei dati e dei risultati di studi ed approfondimenti;
 borse di studio; in collaborazione con Istituzioni italiane e straniere presenti in Italia scelta di temi di approfondimento e selezione di candidati per la preparazione dei programmi di studi e di perfezionamento, con approfondimento dell’Opera e delle idee di Pietro Porcinai.
 STR

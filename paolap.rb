@@ -18,6 +18,9 @@ class Paolap < Sinatra::Base
   #   []
   # end
 
+  require "#{PATH}/lib/photos"
+  include Photos
+
   get "/" do
     haml :index
   end

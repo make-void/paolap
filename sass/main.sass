@@ -200,14 +200,22 @@ img
     display: none
 
 
-.lavori .content .gal
-  img
-    //width: $pu*10
-    margin-left: 0
-    margin-right: $pu*3
-    +vmargin( $u*2 )
-  img:nth-child(3n+2)
-    margin-right: 0
+.content
+  .gal img
+    width: 49%
+    padding: 0
+    margin: 0
+    +hpadding($pu*2)
+    +vmargin( $u )
+  .gal:nth-child(2n)
+    padding-right: 3%
+    padding-right: 0
+  .gal:nth-child(2n+1)
+    padding-left: 3%
+    padding-left: 0
+
+.gal_one img
+  width: 100%
 
 .center
   text-align: center
@@ -224,6 +232,10 @@ img
 .curriculum, .contatti
   img
     margin: 0 auto
+
+.contatti
+  section
+    margin-bottom: 70px
 
 .curriculum img
   width: 130px
@@ -249,16 +261,18 @@ img
   width: $logo_width
 
 .page
+  max-width: 1000px
+  margin: 0 auto
   & > div
     border-top: 2px solid white
   .left
     padding-top: $u * 4
     float: left
-    width: 60%
-    margin-left: 15%
+    width: 50%
+    margin-left: 20%
   .right
     float: right
-    width: 20%
+    width: 22%
 
 .rid ul, .page ul
   padding-left: 17px

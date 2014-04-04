@@ -2,15 +2,19 @@
 
 .page
   .right
-    :markdown
-      #{@lavoro.introduzione}
+    .text
+      :markdown
+        #{@lavoro.introduzione}
+    .gal
+      = haml :_photos
 
   .left
-    .gal
-      = haml :_foto
+    .gal_one
+      = haml :_photo
 
 
-    :markdown
-      #{@lavoro.descrizione}
+    .text
+      :markdown
+        #{@lavoro.descrizione}
 
 .clear

@@ -1,6 +1,5 @@
-:ruby
-
-  extend Mhash
+module Photos
+  include Mhash
 
   def photo_count(lavoro)
     Dir.glob("#{PATH}/public/img/lavori/#{lavoro.id}/*.jpg").size
@@ -20,7 +19,4 @@
     end
     to_mhash array
   end
-
-- for photo in photos(@lavoro)
-  %a.gallery{ href: photo.path, rel: "lavoro_#{@lavoro.id}" }
-    %img{ src: photo.thumb }
+end
