@@ -77,7 +77,7 @@ gal_resize = ->
 
 set_home_height = ->
 
-  $(".inner").css minHeight: $(window).height()
+  $(".inner").css minHeight: $(window).height() - 100
 
 
 $ ->

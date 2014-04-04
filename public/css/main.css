@@ -72,11 +72,14 @@ a {
 .home #container > .inner > header img {
   width: 100px; }
 
+.bar.bar_right {
+  height: 194px;
+  right: 47.4%; }
+
 .home_text {
   position: absolute;
   width: 38%;
-  font-size: 0.8em;
-  bottom: 0px;
+  bottom: -10px;
   right: 8.6%;
   text-shadow: 0px 0px 0px white; }
   .home_text div {
@@ -230,16 +233,14 @@ img {
 
 .bar.bar_left {
   right: 68%;
-  height: 120px; }
-
-.bar.bar_right {
-  right: 47.4%; }
+  height: 108px;
+  bottom: 3px; }
 
 .bar.bar_left_page {
   position: absolute;
-  top: 120px;
+  top: 123px;
   right: 81%;
-  height: 120px; }
+  height: 108px; }
 
 .cont nav a, .pp a {
   font-weight: normal; }
@@ -277,7 +278,7 @@ img {
   position: absolute;
   padding-top: 0;
   left: 0;
-  bottom: 0; }
+  bottom: 20px; }
   .home .block.rid nav {
     position: relative;
     bottom: 0;
