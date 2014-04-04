@@ -96,7 +96,7 @@ STR
 intro_6 = <<STR
 **Programma di stabilizzazione e di fissazione delle dune**
 
-Azougui, Cinguetti, Guerou, Toungad (Nord,Est) Kankossa, Maghta Lajar (est)Aouinat ez Zbil, Kiffa, Mederdra, Tamchakett, Timbedra (est e sud-ovest), Aghchourguitt, Ajouer, Boutilimit (“Route de l’Espoir”).Mauritania
+Azougui, Cinguetti, Guerou, Toungad (Nord,Est) Kankossa, Maghta Lajar (est)Aouinat ez Zbil, Kiffa, Mederdra, Tamchakett, Timbedra (est e sud-ovest), Aghchourguitt, Ajouer, Boutilimit (“Route de l’Espoir”). Mauritania
 
 1983 - 1989
 
