@@ -73,13 +73,14 @@ a {
   width: 100px; }
 
 .bar.bar_right {
-  height: 194px;
-  right: 47.4%; }
+  height: 154px;
+  right: 55.4%;
+  bottom: 29px; }
 
 .home_text {
   position: absolute;
-  width: 38%;
-  bottom: -10px;
+  width: 46%;
+  bottom: -20px;
   right: 8.6%;
   text-shadow: 0px 0px 0px white; }
   .home_text div {
@@ -233,14 +234,14 @@ img {
 
 .bar.bar_left {
   right: 68%;
-  height: 108px;
+  height: 100px;
   bottom: 3px; }
 
 .bar.bar_left_page {
   position: absolute;
   top: 123px;
   right: 81%;
-  height: 108px; }
+  height: 98px; }
 
 .cont nav a, .pp a {
   font-weight: normal; }
@@ -291,3 +292,10 @@ img {
   top: 40%;
   z-index: 5;
   font-weight: bold; }
+
+.curriculum .cv_gal {
+  margin: 25px 0; }
+  .curriculum .cv_gal img {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px; }
