@@ -5,7 +5,7 @@ class Paolap < Sinatra::Base
 
   include Voidtools::Sinatra::ViewHelpers
 
-  if ENV["RACK_ENV"] == "development"
+  if APP_ENV == "development"
     before do
       #require "#{path}/lib/mhash"
       extend Mhash

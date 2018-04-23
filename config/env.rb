@@ -2,8 +2,13 @@ path = File.expand_path '../../', __FILE__
 PATH = path
 APP = "paolap"
 
-require "bundler/setup"
+Encoding.default_internal = Encoding::UTF_8
+Encoding.default_external = Encoding::UTF_8
+
+require "bundler"
 Bundler.require :default
+Haml::Filters.register_tilt_filter "Textile"
+
 module Utils
   def require_all(path)
     Dir.glob("#{path}/**/*.rb") do |model|
@@ -13,8 +18,7 @@ module Utils
 end
 include Utils
 
-env = ENV["RACK_ENV"] || "development"
-ENV = env
+APP_ENV = ENV["RACK_ENV"] || "development"
 
 # ---
 
