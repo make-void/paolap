@@ -17,8 +17,6 @@ gal_anim = (elements) ->
     elements[cur_idx].style.opacity = 0
     elements[next_idx].style.opacity = 1
     gal_anim_callback(next_idx)
-    #console.log(elements[next_idx])
-    #console.log "hiding #{cur_idx}, showing #{next_idx}"
     window.cur_idx = if cond then 0 else cur_idx + 1
 
     window.cur_img = elements[next_idx]
@@ -68,7 +66,6 @@ gal_resize = ->
       $(img).width win_width
       $(img).height 'auto'
       $(img).css top: - (fill_height - win_height) / 2, left: 0
-      #console.log fill_height, win_height
 
   window.set_size = set_size
   window.addEventListener 'resize', set_size
