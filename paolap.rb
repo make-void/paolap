@@ -14,10 +14,6 @@ class Paolap < Sinatra::Base
     end
   end
 
-  # def photos(lavoro)
-  #   []
-  # end
-
   require "#{PATH}/lib/photos"
   include Photos
 
