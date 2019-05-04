@@ -1,5 +1,3 @@
-
-
 window.cur_idx = 0
 
 gal_anim_callback = ->
@@ -35,7 +33,6 @@ gal_anim_callback = (idx) -> # overridden
 
 gal_resize = ->
 
-
   set_size = ->
     img = window.cur_img
 
@@ -49,12 +46,7 @@ gal_resize = ->
     fill_height = win_height
     fill_width  = win_height * img_ratio
 
-  #   apply_height win_height, img_height
-
-  # apply_height = (win_height, img_height) ->
-
     img = ".home .content .bg img"
-    #bg = document.querySelectorAll bg
 
     if img_ratio > win_ratio
       $(img).height win_height
@@ -87,12 +79,11 @@ $ ->
 
   if images.length > 0
     gal_anim images
-
     gal_resize()
 
 
   # home resize
-
+  #
   set_home_height()
   window.addEventListener 'resize', set_home_height
   
